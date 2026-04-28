@@ -1,93 +1,69 @@
 import { createClient } from '@supabase/supabase-js';
 import type { HotspotRow, TourNodeRow, TourRow } from '../types/tour';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnon = import.meta.env.VITE_SUPABASE_ANON_KEY;
-
-if (!supabaseUrl || !supabaseAnon) {
-  throw new Error('Missing Supabase env vars. Check .env.local');
-}
-
-export const supabase = createClient(supabaseUrl, supabaseAnon);
-
-export async function getTourBySlug(slug: string) {
-  try {
-    const { data, error } = await supabase
-      .from('tours')
-      .select('*')
-      .eq('slug', slug)
-      .eq('status', 'published')
-      .single<TourRow>();
-
-    if (error) {
-      throw error;
-    }
-
-    return data;
-  } catch {
-    throw new Error(`Tour not found: ${slug}`);
+// ✅ Lazy — không throw ngay khi import
+function getSupabaseClient() {
+  const url = import.meta.env.VITE_SUPABASE_URL;
+  const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
+  if (!url || !key) {
+    throw new Error('Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY');
   }
+  return createClient(url, key);
 }
 
-export async function getTourNodes(tourId: string) {
-  try {
-    const { data, error } = await supabase
-      .from('tour_nodes')
-      .select('*')
-      .eq('tour_id', tourId)
-      .eq('is_published', true)
-      .order('sort_order', { ascending: true })
-      .returns<TourNodeRow[]>();
+export const supabase = (() => {
+  try { return getSupabaseClient(); } catch { return null; }
+})();
 
-    if (error) {
-      throw error;
-    }
-
-    return data ?? [];
-  } catch (error) {
-    const message = error instanceof Error ? error.message : 'Unknown error';
-    throw new Error(`Nodes fetch failed: ${message}`);
-  }
+export async function getTourBySlug(slug: string): Promise<TourRow> {
+  const client = getSupabaseClient(); // throw rõ ràng khi gọi
+  const { data, error } = await client
+    .from('tours')
+    .select('*')
+    .eq('slug', slug)
+    .eq('status', 'published')
+    .single<TourRow>();
+  if (error || !data) throw new Error(`Tour not found: ${slug}`);
+  return data;
 }
 
-export async function getHotspotsForNode(nodeId: string) {
-  try {
-    const { data, error } = await supabase
-      .from('hotspots')
-      .select(
-        '*, to_node_data:tour_nodes!hotspots_to_node_fkey (id, node_key, name, thumbnail_url, gps_lat, gps_lng)'
-      )
-      .eq('from_node', nodeId)
-      .eq('is_visible', true)
-      .returns<HotspotRow[]>();
-
-    if (error) {
-      throw error;
-    }
-
-    return data ?? [];
-  } catch (error) {
-    const message = error instanceof Error ? error.message : 'Unknown error';
-    throw new Error(`Hotspots fetch failed: ${message}`);
-  }
+export async function getTourNodes(tourId: string): Promise<TourNodeRow[]> {
+  const client = getSupabaseClient();
+  const { data, error } = await client
+    .from('tour_nodes')
+    .select('*')
+    .eq('tour_id', tourId)
+    .eq('is_published', true)
+    .order('sort_order', { ascending: true })
+    .returns<TourNodeRow[]>();
+  if (error) throw new Error(`Nodes fetch failed: ${error.message}`);
+  return data ?? [];
 }
 
-export async function trackNodeView(nodeId: string, tourId: string) {
+export async function getHotspotsForNode(nodeId: string): Promise<HotspotRow[]> {
+  const client = getSupabaseClient();
+  const { data, error } = await client
+    .from('hotspots')
+    .select('*, to_node_data:tour_nodes!hotspots_to_node_fkey (id, node_key, name, thumbnail_url, gps_lat, gps_lng)')
+    .eq('from_node', nodeId)
+    .eq('is_visible', true)
+    .returns<HotspotRow[]>();
+  if (error) throw new Error(`Hotspots fetch failed: ${error.message}`);
+  return data ?? [];
+}
+
+export async function trackNodeView(nodeId: string, tourId: string): Promise<void> {
   try {
-    await supabase.from('node_views').insert({
+    const client = getSupabaseClient();
+    await client.from('node_views').insert({
       node_id: nodeId,
       tour_id: tourId,
       session_id: getSessionId(),
-      device:
-        typeof window !== 'undefined'
-          ? window.innerWidth < 768
-            ? 'mobile'
-            : 'desktop'
-          : 'unknown',
+      device: typeof window !== 'undefined'
+        ? window.innerWidth < 768 ? 'mobile' : 'desktop'
+        : 'unknown',
     });
-  } catch {
-    return;
-  }
+  } catch { return; }
 }
 
 function getSessionId(): string {

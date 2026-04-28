@@ -18,13 +18,33 @@ if (!slug) {
   return Astro.redirect('/404');
 }
 
-let tour: TourRow;
+let tour: TourRow | null = null;
+let loadError: string | null = null;
+
 try {
   tour = await getTourBySlug(slug);
-} catch {
-  return Astro.redirect('/404');
+} catch (err) {
+  loadError = err instanceof Error ? err.message : 'Unknown error';
 }
 ---
+
+{!tour ? (
+<BaseLayout
+  title="Tour Not Found"
+  description={loadError || 'Tour not found'}
+>
+  <main class="flex min-h-screen items-center justify-center bg-black">
+    <div class="max-w-md rounded-lg border border-red-500/30 bg-red-950/20 p-8 text-center backdrop-blur-sm">
+      <h1 class="text-2xl font-bold text-white mb-4">❌ Tour Unavailable</h1>
+      <p class="text-red-200 mb-6 font-mono text-sm">{loadError || `Tour not found: ${slug}`}</p>
+      <p class="text-white/60 mb-8 text-sm">The tour you're looking for is not available or couldn't be loaded.</p>
+      <a href="/" class="inline-block rounded-lg bg-blue-600 hover:bg-blue-700 px-6 py-2 font-semibold text-white transition">
+        ← Back to Home
+      </a>
+    </div>
+  </main>
+</BaseLayout>
+) : (
 
 <BaseLayout
   title={tour.name}
@@ -191,3 +211,4 @@ try {
     }
   </script>
 </BaseLayout>
+)}
