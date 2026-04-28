@@ -1,0 +1,193 @@
+---
+export const prerender = false;
+
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getTourBySlug } from '@services/supabase';
+import { TourChrome } from '@components/islands/TourChrome';
+import { VirtualTourViewer } from '@components/islands/VirtualTourViewer';
+import { MapboxMiniMap } from '@components/islands/MapboxMiniMap';
+import { NodeInfoPanel } from '@components/islands/NodeInfoPanel';
+import { HotspotCompass } from '@components/islands/HotspotCompass';
+import { TourNodeList } from '@components/islands/TourNodeList';
+import type { TourRow } from '../../types/tour';
+
+const rawSlug = Astro.params.slug;
+const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
+
+if (!slug) {
+  return Astro.redirect('/404');
+}
+
+let tour: TourRow;
+try {
+  tour = await getTourBySlug(slug);
+} catch {
+  return Astro.redirect('/404');
+}
+---
+
+<BaseLayout
+  title={tour.name}
+  description={tour.description ?? tour.name}
+  image={tour.cover_image ?? '/hero-forest.svg'}
+  canonical={Astro.url.href}
+  viewport="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+>
+  <main class="relative min-h-screen overflow-hidden bg-black">
+    <div class="absolute inset-0">
+      <VirtualTourViewer client:only="react" tourSlug={slug} />
+    </div>
+
+    <div class="fixed left-0 top-0 z-30 h-full">
+      <TourNodeList client:only="react" />
+    </div>
+    <TourChrome client:only="react" tourName={tour.name} />
+
+    <button
+      id="tour-fullscreen-btn"
+      type="button"
+      aria-label="Toggle fullscreen"
+      class="pointer-events-auto fixed right-4 top-20 z-40 rounded-full border border-white/15 bg-black/55 px-4 py-2 text-xs font-semibold uppercase tracking-[0.15em] text-white backdrop-blur-xl transition hover:bg-black/70 md:top-6 md:right-6"
+    >
+      Fullscreen
+    </button>
+
+    <div class="pointer-events-none fixed bottom-4 right-4 z-40">
+      <MapboxMiniMap client:only="react" />
+    </div>
+
+    <div class="pointer-events-none fixed bottom-28 right-6 z-30 max-md:bottom-24 max-md:left-1/2 max-md:right-auto max-md:-translate-x-1/2">
+      <HotspotCompass client:only="react" />
+    </div>
+
+    <div class="pointer-events-none fixed right-0 top-0 z-40 h-full">
+      <NodeInfoPanel client:only="react" />
+    </div>
+  </main>
+
+  <script type="module">
+    import { useTourStore } from '@stores/tourStore';
+
+    const store = useTourStore;
+
+    function normalizeYaw(yaw) {
+      return ((yaw % 360) + 360) % 360;
+    }
+
+    function angularDistance(a, b) {
+      const diff = Math.abs(normalizeYaw(a) - normalizeYaw(b));
+      return Math.min(diff, 360 - diff);
+    }
+
+    function findNearestHotspotForDirection(hotspots, directionAngle) {
+      if (!Array.isArray(hotspots) || hotspots.length === 0) {
+        return null;
+      }
+
+      const candidates = hotspots
+        .map((hotspot) => ({
+          hotspot,
+          diff: angularDistance(hotspot.yaw, directionAngle),
+        }))
+        .sort((left, right) => {
+          if (left.diff !== right.diff) {
+            return left.diff - right.diff;
+          }
+          return left.hotspot.distance_m - right.hotspot.distance_m;
+        });
+
+      return candidates[0]?.hotspot ?? null;
+    }
+
+    function closePanels() {
+      const state = store.getState();
+      store.setState({
+        isMapVisible: false,
+        isInfoVisible: false,
+      });
+      window.dispatchEvent(new CustomEvent('tour:close-panels'));
+    }
+
+    function setMobileDefaults() {
+      if (window.innerWidth < 768) {
+        store.setState({ isMapVisible: false });
+      }
+    }
+
+    function handleKeyboardShortcuts(event) {
+      const active = document.activeElement;
+      const isInputFocused =
+        active instanceof HTMLInputElement ||
+        active instanceof HTMLTextAreaElement ||
+        active instanceof HTMLSelectElement ||
+        active?.getAttribute('contenteditable') === 'true';
+
+      if (isInputFocused) {
+        return;
+      }
+
+      const key = event.key.toLowerCase();
+      const state = store.getState();
+
+      if (key === 'm') {
+        state.toggleMap();
+        return;
+      }
+
+      if (key === 'i') {
+        state.toggleInfo();
+        return;
+      }
+
+      if (event.key === 'Escape') {
+        closePanels();
+        return;
+      }
+
+      if (!state.currentNode || state.currentNode.hotspots.length === 0) {
+        return;
+      }
+
+      const directionMap = {
+        ArrowUp: 0,
+        ArrowRight: 90,
+        ArrowDown: 180,
+        ArrowLeft: 270,
+      };
+
+      if (!(event.key in directionMap)) {
+        return;
+      }
+
+      const hotspot = findNearestHotspotForDirection(
+        state.currentNode.hotspots,
+        directionMap[event.key],
+      );
+
+      if (!hotspot) {
+        return;
+      }
+
+      event.preventDefault();
+      state.navigateTo(hotspot.target_id);
+    }
+
+    try {
+      setMobileDefaults();
+      window.addEventListener('keydown', handleKeyboardShortcuts);
+      window.addEventListener('resize', setMobileDefaults, { passive: true });
+
+      const fullscreenButton = document.getElementById('tour-fullscreen-btn');
+      fullscreenButton?.addEventListener('click', async () => {
+        if (!document.fullscreenElement) {
+          await document.documentElement.requestFullscreen?.();
+          return;
+        }
+
+        await document.exitFullscreen?.();
+      });
+    } catch (error) {
+      console.error('Failed to initialize tour keyboard controls', error);
+    }
+  </script>
+</BaseLayout>

@@ -1,0 +1,31 @@
+{
+  "name": "virtual-tour-web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.0.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "astro": "^4.0.0",
+    "clsx": "^2.1.1",
+    "mapbox-gl": "^3.0.0",
+    "marzipano": "^0.10.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^10.4.2",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3"
+  }
+}

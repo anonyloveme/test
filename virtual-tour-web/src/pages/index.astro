@@ -1,0 +1,255 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import TourCard from '@components/TourCard.astro';
+
+interface TourRecord {
+	id: string;
+	slug: string;
+	name: string;
+	description: string | null;
+	cover_image: string | null;
+	center_lat: number;
+	center_lng: number;
+}
+
+interface NodePointRecord {
+	tour_id: string;
+	gps_lat: number;
+	gps_lng: number;
+}
+
+interface FeaturedTour {
+	id: string;
+	slug: string;
+	name: string;
+	description: string;
+	coverImage: string;
+	nodeCount: number;
+	coverageKm2: number;
+	cameraModel: string;
+	centerLat: number;
+	centerLng: number;
+}
+
+const fallbackTours: FeaturedTour[] = [
+	{
+		id: 'fallback-kon-tum-forest',
+		slug: 'kon-tum-forest',
+		name: 'Kon Tum Protected Forest',
+		description: 'Explore the Kon Tum Protected Forest in immersive 360° with GPS-linked navigation.',
+		coverImage: '/hero-forest.svg',
+		nodeCount: 21,
+		coverageKm2: 9.22,
+		cameraModel: 'Insta360 Pro 2',
+		centerLat: 14.346,
+		centerLng: 108.007,
+	},
+];
+
+function degreesToRadians(value: number): number {
+	return (value * Math.PI) / 180;
+}
+
+function coverageFromPoints(points: NodePointRecord[]): number {
+	if (points.length < 2) {
+		return 0;
+	}
+
+	const lats = points.map((point) => point.gps_lat);
+	const lngs = points.map((point) => point.gps_lng);
+
+	const minLat = Math.min(...lats);
+	const maxLat = Math.max(...lats);
+	const minLng = Math.min(...lngs);
+	const maxLng = Math.max(...lngs);
+
+	const latDistanceKm = 111.32 * Math.abs(maxLat - minLat);
+	const meanLat = (minLat + maxLat) / 2;
+	const lngDistanceKm = 111.32 * Math.cos(degreesToRadians(meanLat)) * Math.abs(maxLng - minLng);
+	return Math.max(0, latDistanceKm * lngDistanceKm);
+}
+
+async function fetchPublishedTours(): Promise<FeaturedTour[]> {
+	const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+	const serviceRoleKey = import.meta.env.SUPABASE_SERVICE_ROLE_KEY as string | undefined;
+
+	if (!supabaseUrl || !serviceRoleKey) {
+		throw new Error('Missing Supabase server env vars for homepage fetch');
+	}
+
+	const headers = {
+		apikey: serviceRoleKey,
+		Authorization: `Bearer ${serviceRoleKey}`,
+		Accept: 'application/json',
+	};
+
+	const toursResponse = await fetch(
+		`${supabaseUrl}/rest/v1/tours?select=id,slug,name,description,cover_image,center_lat,center_lng&status=eq.published&order=created_at.desc`,
+		{
+			headers,
+		},
+	);
+
+	if (!toursResponse.ok) {
+		throw new Error(`Tours fetch failed: ${toursResponse.status}`);
+	}
+
+	const tours = (await toursResponse.json()) as TourRecord[];
+	if (!Array.isArray(tours) || tours.length === 0) {
+		return [];
+	}
+
+	const nodesResponse = await fetch(
+		`${supabaseUrl}/rest/v1/tour_nodes?select=tour_id,gps_lat,gps_lng&is_published=eq.true`,
+		{
+			headers,
+		},
+	);
+
+	if (!nodesResponse.ok) {
+		throw new Error(`Tour nodes fetch failed: ${nodesResponse.status}`);
+	}
+
+	const nodePoints = (await nodesResponse.json()) as NodePointRecord[];
+	const pointsByTour = nodePoints.reduce<Record<string, NodePointRecord[]>>((acc, point) => {
+		if (!acc[point.tour_id]) {
+			acc[point.tour_id] = [];
+		}
+		acc[point.tour_id].push(point);
+		return acc;
+	}, {});
+
+	return tours.map((tour) => {
+		const points = pointsByTour[tour.id] ?? [];
+		return {
+			id: tour.id,
+			slug: tour.slug,
+			name: tour.name,
+			description: tour.description ?? 'Immersive 360° forest exploration experience.',
+			coverImage: tour.cover_image ?? '/hero-forest.svg',
+			nodeCount: points.length,
+			coverageKm2: coverageFromPoints(points),
+			cameraModel: 'Insta360 Pro 2',
+			centerLat: tour.center_lat,
+			centerLng: tour.center_lng,
+		};
+	});
+}
+
+let tours: FeaturedTour[] = [];
+let fetchFailed = false;
+try {
+	tours = await fetchPublishedTours();
+} catch {
+	fetchFailed = true;
+	tours = fallbackTours;
+}
+
+if (fetchFailed && tours.length === 0) {
+	tours = fallbackTours;
+}
+
+const firstTour = tours[0] ?? fallbackTours[0];
+const ctaHref = `/tour/${firstTour.slug}`;
+
+const jsonLd = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'TouristAttraction',
+	name: firstTour.name,
+	description: firstTour.description,
+	image: firstTour.coverImage,
+	geo: {
+		'@type': 'GeoCoordinates',
+		latitude: firstTour.centerLat,
+		longitude: firstTour.centerLng,
+	},
+});
+---
+
+<BaseLayout title="Virtual Tour — Rừng Phòng Hộ Kon Tum" description="Explore the Kon Tum Protected Forest in 360°">
+	<Fragment slot="head">
+		<script type="application/ld+json" set:html={jsonLd}></script>
+	</Fragment>
+
+	<main class="relative min-h-screen overflow-hidden">
+		<section class="relative flex min-h-screen items-center">
+			<div class="absolute inset-0 bg-cover bg-center" style="background-image: linear-gradient(135deg, rgba(4, 47, 46, 0.88), rgba(15, 23, 42, 0.45)), url('/hero-forest.svg')"></div>
+			<div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.22),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.18),transparent_30%)]"></div>
+			<div class="relative mx-auto grid w-full max-w-7xl gap-12 px-6 py-24 lg:grid-cols-[1.15fr_0.85fr] lg:px-10">
+				<div class="max-w-3xl">
+					<p class="mb-5 text-xs font-semibold uppercase tracking-[0.4em] text-emerald-300/90">Kon Tum Protected Forest</p>
+					<h1 class="max-w-3xl text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+						Explore the canopy, ridgelines, and lookout points in 360°.
+					</h1>
+					<p class="mt-6 max-w-2xl text-lg leading-8 text-slate-200/90 sm:text-xl">
+						A zero-cost eco-tourism platform for GPS-linked panorama navigation, satellite mapping, and guided discovery.
+					</p>
+					<div class="mt-10 flex flex-wrap gap-4">
+						<a href={ctaHref} class="btn-glass inline-flex items-center gap-3 px-6 py-3 text-base font-semibold text-white">
+							Explore Now
+							<span aria-hidden="true">→</span>
+						</a>
+						<div class="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-slate-200">
+							Built for Cloudflare Pages, R2, and Supabase
+						</div>
+					</div>
+				</div>
+
+				<div class="grid gap-4 self-end lg:justify-items-end">
+					<div class="w-full max-w-md rounded-3xl border border-white/10 bg-black/30 p-6 shadow-2xl shadow-black/40 backdrop-blur-xl">
+						<p class="text-sm uppercase tracking-[0.3em] text-emerald-300">Tour snapshot</p>
+						<div class="mt-6 grid grid-cols-2 gap-4 text-sm text-slate-200">
+							<div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+								<div class="text-3xl font-semibold text-white">21</div>
+								<div class="mt-1 text-slate-300">Locations</div>
+							</div>
+							<div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+								<div class="text-3xl font-semibold text-white">9.22</div>
+								<div class="mt-1 text-slate-300">km² coverage</div>
+							</div>
+							<div class="col-span-2 rounded-2xl border border-white/10 bg-white/5 p-4">
+								<div class="text-3xl font-semibold text-white">103 MP</div>
+								<div class="mt-1 text-slate-300">Per panorama resolution</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="border-t border-white/10 bg-[#0a131f] px-6 py-16 lg:px-10">
+			<div class="mx-auto max-w-7xl">
+				<div class="mb-8 flex items-center justify-between gap-4">
+					<h2 class="text-2xl font-semibold text-white sm:text-3xl">Featured Tours</h2>
+				</div>
+
+				{!fetchFailed && tours.length === 0 ? (
+					<div class="rounded-2xl border border-white/10 bg-black/30 px-4 py-6 text-sm text-slate-300">
+						Coming soon
+					</div>
+				) : (
+					<div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+						{tours.map((tour) => (
+							<TourCard
+								name={tour.name}
+								description={tour.description}
+								coverImage={tour.coverImage}
+								slug={tour.slug}
+								nodeCount={tour.nodeCount}
+								coverageKm2={tour.coverageKm2}
+								cameraModel={tour.cameraModel}
+							/>
+						))}
+					</div>
+				)}
+			</div>
+		</section>
+
+		<section class="border-t border-white/10 bg-[#09130f] px-6 py-16 text-slate-200 lg:px-10">
+			<div class="mx-auto flex max-w-7xl flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
+				<p>Generated for the Kon Tum Protected Forest virtual tour.</p>
+				<p class="text-slate-400">Built with Astro, React, Supabase, Cloudflare R2, and Marzipano.</p>
+			</div>
+		</section>
+	</main>
+</BaseLayout>

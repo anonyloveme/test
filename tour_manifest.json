@@ -1,0 +1,1835 @@
+{
+  "tour_name": "Virtual Tour — Rừng Phòng Hộ Kon Tum",
+  "generated_at": "2026-04-25T17:36:18.627655+00:00",
+  "camera": "DJI M3E",
+  "projection": "equirectangular",
+  "resolution": "14400x7200",
+  "total_nodes": 30,
+  "tile_format": "flat_row_col",
+  "mapbox": {
+    "center": {
+      "lat": 14.072027,
+      "lng": 108.288723
+    },
+    "zoom": 14,
+    "pitch": 45,
+    "style": "mapbox://styles/mapbox/satellite-streets-v12"
+  },
+  "nodes": [
+    {
+      "id": "node_01_01_nga_ba_keo_uc",
+      "scene_folder": "scene_01",
+      "name": "01_Ngã ba keo úc",
+      "filename": "01_Ngã ba keo úc.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/01_Ngã ba keo úc.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_01_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_01",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_01/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.078641,
+        "lng": 108.29765075,
+        "alt": 812.42
+      },
+      "heading": 338.72,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_20_12_ruong_lua",
+          "target_name": "12_Ruộng lúa",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 486.7,
+          "label": "→ 12_Ruộng lúa"
+        }
+      ],
+      "timestamp": "2025:07:14 15:59:16"
+    },
+    {
+      "id": "node_02_02_nga_3_rung_thong",
+      "scene_folder": "scene_02",
+      "name": "02_Ngã 3 rừng thông",
+      "filename": "02_Ngã 3 rừng thông.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/02_Ngã 3 rừng thông.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_02_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_02",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_02/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07604931,
+        "lng": 108.29333297,
+        "alt": 824.8
+      },
+      "heading": 256.62,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_03_03_nga_4_konbrung",
+          "target_name": "03_Ngã 4 KonBrung",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 314.0,
+          "label": "→ 03_Ngã 4 KonBrung"
+        }
+      ],
+      "timestamp": "2025:07:14 16:18:50"
+    },
+    {
+      "id": "node_03_03_nga_4_konbrung",
+      "scene_folder": "scene_03",
+      "name": "03_Ngã 4 KonBrung",
+      "filename": "03_Ngã 4 KonBrung.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/03_Ngã 4 KonBrung.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_03_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_03",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_03/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07539589,
+        "lng": 108.29050056,
+        "alt": 809.01
+      },
+      "heading": 76.62,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_02_02_nga_3_rung_thong",
+          "target_name": "02_Ngã 3 rừng thông",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 314.0,
+          "label": "→ 02_Ngã 3 rừng thông"
+        }
+      ],
+      "timestamp": "2025:07:14 16:16:28"
+    },
+    {
+      "id": "node_04_04_nga_3_vuon_thuc_vat",
+      "scene_folder": "scene_04",
+      "name": "04_Ngã 3 vườn thực vật",
+      "filename": "04_Ngã 3 vườn thực vật.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/04_Ngã 3 vườn thực vật.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_04_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_04",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_04/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07089772,
+        "lng": 108.28656097,
+        "alt": 935.83
+      },
+      "heading": 203.61,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_05_05_choi_canh_lua_2",
+          "target_name": "05_Chòi canh lửa (2)",
+          "yaw": 1.01,
+          "pitch": -10.0,
+          "distance_m": 455.5,
+          "label": "→ 05_Chòi canh lửa (2)"
+        },
+        {
+          "target_id": "node_06_05_choi_canh_lua",
+          "target_name": "05_Chòi canh lửa",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 451.6,
+          "label": "→ 05_Chòi canh lửa"
+        },
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 292.28,
+          "pitch": -10.0,
+          "distance_m": 458.9,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 292.48,
+          "pitch": -10.0,
+          "distance_m": 459.1,
+          "label": "→ 07_Suối - vườn thực vật"
+        }
+      ],
+      "timestamp": "2025:07:14 16:58:03"
+    },
+    {
+      "id": "node_05_05_choi_canh_lua_2",
+      "scene_folder": "scene_05",
+      "name": "05_Chòi canh lửa (2)",
+      "filename": "05_Chòi canh lửa (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/05_Chòi canh lửa (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_05_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_05",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_05/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06717331,
+        "lng": 108.28480144,
+        "alt": 926.96
+      },
+      "heading": 87.61,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_04_04_nga_3_vuon_thuc_vat",
+          "target_name": "04_Ngã 3 vườn thực vật",
+          "yaw": 297.01,
+          "pitch": -10.0,
+          "distance_m": 455.5,
+          "label": "→ 04_Ngã 3 vườn thực vật"
+        },
+        {
+          "target_id": "node_06_05_choi_canh_lua",
+          "target_name": "05_Chòi canh lửa",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 8.9,
+          "label": "→ 05_Chòi canh lửa"
+        },
+        {
+          "target_id": "node_07_06_964_moc_toa_o_quoc_gia_2",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia (2)",
+          "yaw": 141.23,
+          "pitch": -10.0,
+          "distance_m": 322.2,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia (2)"
+        },
+        {
+          "target_id": "node_08_06_964_moc_toa_o_quoc_gia",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia",
+          "yaw": 140.83,
+          "pitch": -10.0,
+          "distance_m": 320.3,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia"
+        }
+      ],
+      "timestamp": "2025:07:11 18:02:54"
+    },
+    {
+      "id": "node_06_05_choi_canh_lua",
+      "scene_folder": "scene_06",
+      "name": "05_Chòi canh lửa",
+      "filename": "05_Chòi canh lửa.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/05_Chòi canh lửa.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_06_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_06",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_06/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06717664,
+        "lng": 108.28488386,
+        "alt": 943.87
+      },
+      "heading": 267.61,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_04_04_nga_3_vuon_thuc_vat",
+          "target_name": "04_Ngã 3 vườn thực vật",
+          "yaw": 116.0,
+          "pitch": -10.0,
+          "distance_m": 451.6,
+          "label": "→ 04_Ngã 3 vườn thực vật"
+        },
+        {
+          "target_id": "node_05_05_choi_canh_lua_2",
+          "target_name": "05_Chòi canh lửa (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 8.9,
+          "label": "→ 05_Chòi canh lửa (2)"
+        },
+        {
+          "target_id": "node_07_06_964_moc_toa_o_quoc_gia_2",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia (2)",
+          "yaw": 322.2,
+          "pitch": -10.0,
+          "distance_m": 329.1,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia (2)"
+        },
+        {
+          "target_id": "node_08_06_964_moc_toa_o_quoc_gia",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia",
+          "yaw": 321.81,
+          "pitch": -10.0,
+          "distance_m": 327.3,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia"
+        }
+      ],
+      "timestamp": "2025:07:14 17:00:45"
+    },
+    {
+      "id": "node_07_06_964_moc_toa_o_quoc_gia_2",
+      "scene_folder": "scene_07",
+      "name": "06_964 - Mốc toạ độ Quốc gia (2)",
+      "filename": "06_964 - Mốc toạ độ Quốc gia (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/06_964 - Mốc toạ độ Quốc gia (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_07_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_07",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_07/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06526636,
+        "lng": 108.28255275,
+        "alt": 994.13
+      },
+      "heading": 99.51,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_05_05_choi_canh_lua_2",
+          "target_name": "05_Chòi canh lửa (2)",
+          "yaw": 309.33,
+          "pitch": -10.0,
+          "distance_m": 322.2,
+          "label": "→ 05_Chòi canh lửa (2)"
+        },
+        {
+          "target_id": "node_06_05_choi_canh_lua",
+          "target_name": "05_Chòi canh lửa",
+          "yaw": 310.3,
+          "pitch": -10.0,
+          "distance_m": 329.1,
+          "label": "→ 05_Chòi canh lửa"
+        },
+        {
+          "target_id": "node_08_06_964_moc_toa_o_quoc_gia",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 2.9,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia"
+        }
+      ],
+      "timestamp": "2025:07:11 17:38:29"
+    },
+    {
+      "id": "node_08_06_964_moc_toa_o_quoc_gia",
+      "scene_folder": "scene_08",
+      "name": "06_964 - Mốc toạ độ Quốc gia",
+      "filename": "06_964 - Mốc toạ độ Quốc gia.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/06_964 - Mốc toạ độ Quốc gia.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_08_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_08",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_08/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06526206,
+        "lng": 108.28257922,
+        "alt": 992.51
+      },
+      "heading": 279.51,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_05_05_choi_canh_lua_2",
+          "target_name": "05_Chòi canh lửa (2)",
+          "yaw": 128.93,
+          "pitch": -10.0,
+          "distance_m": 320.3,
+          "label": "→ 05_Chòi canh lửa (2)"
+        },
+        {
+          "target_id": "node_06_05_choi_canh_lua",
+          "target_name": "05_Chòi canh lửa",
+          "yaw": 129.91,
+          "pitch": -10.0,
+          "distance_m": 327.3,
+          "label": "→ 05_Chòi canh lửa"
+        },
+        {
+          "target_id": "node_07_06_964_moc_toa_o_quoc_gia_2",
+          "target_name": "06_964 - Mốc toạ độ Quốc gia (2)",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 2.9,
+          "label": "→ 06_964 - Mốc toạ độ Quốc gia (2)"
+        }
+      ],
+      "timestamp": "2025:07:14 17:02:30"
+    },
+    {
+      "id": "node_09_07_suoi_vuon_thuc_vat_2",
+      "scene_folder": "scene_09",
+      "name": "07_Suối - vườn thực vật (2)",
+      "filename": "07_Suối - vườn thực vật (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/07_Suối - vườn thực vật (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_09_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_09",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_09/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06793481,
+        "lng": 108.28952208,
+        "alt": 827.49
+      },
+      "heading": 218.08,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_04_04_nga_3_vuon_thuc_vat",
+          "target_name": "04_Ngã 3 vườn thực vật",
+          "yaw": 97.81,
+          "pitch": -10.0,
+          "distance_m": 458.9,
+          "label": "→ 04_Ngã 3 vườn thực vật"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 1.6,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 253.29,
+          "pitch": -10.0,
+          "distance_m": 233.8,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 252.59,
+          "pitch": -10.0,
+          "distance_m": 235.0,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 264.87,
+          "pitch": -10.0,
+          "distance_m": 404.4,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 265.35,
+          "pitch": -10.0,
+          "distance_m": 415.8,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 269.11,
+          "pitch": -10.0,
+          "distance_m": 179.4,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:14 17:07:05"
+    },
+    {
+      "id": "node_10_07_suoi_vuon_thuc_vat",
+      "scene_folder": "scene_10",
+      "name": "07_Suối - vườn thực vật",
+      "filename": "07_Suối - vườn thực vật.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/07_Suối - vườn thực vật.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_10_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_10",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_10/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06792336,
+        "lng": 108.28951283,
+        "alt": 813.65
+      },
+      "heading": 38.08,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_04_04_nga_3_vuon_thuc_vat",
+          "target_name": "04_Ngã 3 vườn thực vật",
+          "yaw": 278.01,
+          "pitch": -10.0,
+          "distance_m": 459.1,
+          "label": "→ 04_Ngã 3 vườn thực vật"
+        },
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 1.6,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 72.91,
+          "pitch": -10.0,
+          "distance_m": 234.3,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 72.21,
+          "pitch": -10.0,
+          "distance_m": 235.5,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 84.64,
+          "pitch": -10.0,
+          "distance_m": 404.5,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 85.13,
+          "pitch": -10.0,
+          "distance_m": 415.9,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 88.59,
+          "pitch": -10.0,
+          "distance_m": 179.4,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:11 17:50:53"
+    },
+    {
+      "id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+      "scene_folder": "scene_11",
+      "name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+      "filename": "08_Ngã 3 rừng thông - Vườn thực vật (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/08_Ngã 3 rừng thông - Vườn thực vật (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_11_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_11",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_11/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06716861,
+        "lng": 108.29154072,
+        "alt": 836.35
+      },
+      "heading": 43.17,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 248.2,
+          "pitch": -10.0,
+          "distance_m": 233.8,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 247.82,
+          "pitch": -10.0,
+          "distance_m": 234.3,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 3.1,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 94.77,
+          "pitch": -10.0,
+          "distance_m": 181.5,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 94.9,
+          "pitch": -10.0,
+          "distance_m": 193.4,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 209.59,
+          "pitch": -10.0,
+          "distance_m": 78.4,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:14 17:09:00"
+    },
+    {
+      "id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+      "scene_folder": "scene_12",
+      "name": "08_Ngã 3 rừng thông - vườn thực vật",
+      "filename": "08_Ngã 3 rừng thông - vườn thực vật.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/08_Ngã 3 rừng thông - vườn thực vật.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_12_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_12",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_12/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06718903,
+        "lng": 108.29156047,
+        "alt": 792.23
+      },
+      "heading": 223.17,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 67.5,
+          "pitch": -10.0,
+          "distance_m": 235.0,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 67.12,
+          "pitch": -10.0,
+          "distance_m": 235.5,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 3.1,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 275.75,
+          "pitch": -10.0,
+          "distance_m": 181.8,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 275.82,
+          "pitch": -10.0,
+          "distance_m": 193.7,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 28.51,
+          "pitch": -10.0,
+          "distance_m": 81.1,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:13 17:53:30"
+    },
+    {
+      "id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+      "scene_folder": "scene_13",
+      "name": "09_Nhà hành chính Trung tâm (2)",
+      "filename": "09_Nhà hành chính Trung tâm (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/09_Nhà hành chính Trung tâm (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_13_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_13",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_13/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06306167,
+        "lng": 108.29425194,
+        "alt": 758.17
+      },
+      "heading": 206.51,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 0.5,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 58.35,
+          "pitch": -10.0,
+          "distance_m": 8.8,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 125.53,
+          "pitch": -10.0,
+          "distance_m": 364.5,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 125.94,
+          "pitch": -10.0,
+          "distance_m": 352.8,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 219.91,
+          "pitch": -10.0,
+          "distance_m": 26.8,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 222.72,
+          "pitch": -10.0,
+          "distance_m": 27.4,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 219.35,
+          "pitch": -10.0,
+          "distance_m": 27.0,
+          "label": "→ 15_Cổng Trung tâm"
+        }
+      ],
+      "timestamp": "2025:07:14 17:22:14"
+    },
+    {
+      "id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+      "scene_folder": "scene_14",
+      "name": "09_Nhà hành chính Trung tâm (3)",
+      "filename": "09_Nhà hành chính Trung tâm (3).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/09_Nhà hành chính Trung tâm (3).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_14_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_14",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_14/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06305747,
+        "lng": 108.29424978,
+        "alt": 817.3
+      },
+      "heading": 26.51,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 0.5,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 241.33,
+          "pitch": -10.0,
+          "distance_m": 8.5,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 305.6,
+          "pitch": -10.0,
+          "distance_m": 364.8,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 306.01,
+          "pitch": -10.0,
+          "distance_m": 353.1,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 39.21,
+          "pitch": -10.0,
+          "distance_m": 27.2,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 41.99,
+          "pitch": -10.0,
+          "distance_m": 27.8,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 38.66,
+          "pitch": -10.0,
+          "distance_m": 27.4,
+          "label": "→ 15_Cổng Trung tâm"
+        }
+      ],
+      "timestamp": "2025:07:14 17:23:25"
+    },
+    {
+      "id": "node_15_09_nha_hanh_chinh_trung_tam",
+      "scene_folder": "scene_15",
+      "name": "09_Nhà hành chính Trung tâm",
+      "filename": "09_Nhà hành chính Trung tâm.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/09_Nhà hành chính Trung tâm.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_15_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_15",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_15/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06305458,
+        "lng": 108.29417072,
+        "alt": 764.81
+      },
+      "heading": 87.84,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 357.02,
+          "pitch": -10.0,
+          "distance_m": 8.8,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 8.5,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 245.49,
+          "pitch": -10.0,
+          "distance_m": 361.1,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 245.94,
+          "pitch": -10.0,
+          "distance_m": 349.5,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 343.11,
+          "pitch": -10.0,
+          "distance_m": 35.3,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 345.17,
+          "pitch": -10.0,
+          "distance_m": 36.0,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 342.65,
+          "pitch": -10.0,
+          "distance_m": 35.5,
+          "label": "→ 15_Cổng Trung tâm"
+        }
+      ],
+      "timestamp": "2025:07:10 08:09:02"
+    },
+    {
+      "id": "node_16_10_nga_3_rung_trac_2",
+      "scene_folder": "scene_16",
+      "name": "10_Ngã 3 rừng trắc (2)",
+      "filename": "10_Ngã 3 rừng trắc (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/10_Ngã 3 rừng trắc (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_16_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_16",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_16/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06595686,
+        "lng": 108.29266789,
+        "alt": 775.11
+      },
+      "heading": 140.02,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 162.93,
+          "pitch": -10.0,
+          "distance_m": 404.4,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 162.7,
+          "pitch": -10.0,
+          "distance_m": 404.5,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 177.92,
+          "pitch": -10.0,
+          "distance_m": 181.5,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 178.9,
+          "pitch": -10.0,
+          "distance_m": 181.8,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 12.02,
+          "pitch": -10.0,
+          "distance_m": 364.5,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 12.09,
+          "pitch": -10.0,
+          "distance_m": 364.8,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 13.31,
+          "pitch": -10.0,
+          "distance_m": 361.1,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 12.0,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 7.85,
+          "pitch": -10.0,
+          "distance_m": 367.5,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 7.79,
+          "pitch": -10.0,
+          "distance_m": 368.9,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 7.81,
+          "pitch": -10.0,
+          "distance_m": 367.3,
+          "label": "→ 15_Cổng Trung tâm"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 159.57,
+          "pitch": -10.0,
+          "distance_m": 225.9,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:13 17:56:00"
+    },
+    {
+      "id": "node_17_10_nga_3_rung_trac",
+      "scene_folder": "scene_17",
+      "name": "10_Ngã 3 rừng trắc",
+      "filename": "10_Ngã 3 rừng trắc.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/10_Ngã 3 rừng trắc.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_17_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_17",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_17/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06587439,
+        "lng": 108.29273919,
+        "alt": 815.11
+      },
+      "heading": 320.02,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 343.42,
+          "pitch": -10.0,
+          "distance_m": 415.8,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 343.19,
+          "pitch": -10.0,
+          "distance_m": 415.9,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 358.05,
+          "pitch": -10.0,
+          "distance_m": 193.4,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 358.97,
+          "pitch": -10.0,
+          "distance_m": 193.7,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 192.43,
+          "pitch": -10.0,
+          "distance_m": 352.8,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 192.5,
+          "pitch": -10.0,
+          "distance_m": 353.1,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 193.76,
+          "pitch": -10.0,
+          "distance_m": 349.5,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 12.0,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 188.12,
+          "pitch": -10.0,
+          "distance_m": 355.6,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 188.05,
+          "pitch": -10.0,
+          "distance_m": 357.0,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 188.08,
+          "pitch": -10.0,
+          "distance_m": 355.4,
+          "label": "→ 15_Cổng Trung tâm"
+        },
+        {
+          "target_id": "node_30_19_bo_sung_04",
+          "target_name": "19_Bổ sung 04",
+          "yaw": 340.58,
+          "pitch": -10.0,
+          "distance_m": 237.1,
+          "label": "→ 19_Bổ sung 04"
+        }
+      ],
+      "timestamp": "2025:07:14 17:15:54"
+    },
+    {
+      "id": "node_18_11_inh_1032m_2",
+      "scene_folder": "scene_18",
+      "name": "11_Đỉnh 1032m (2)",
+      "filename": "11_Đỉnh 1032m (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/11_Đỉnh 1032m (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_18_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_18",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_18/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07921222,
+        "lng": 108.27504053,
+        "alt": 1121.81
+      },
+      "heading": 12.67,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_19_11_inh_1032m",
+          "target_name": "11_Đỉnh 1032m",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.6,
+          "label": "→ 11_Đỉnh 1032m"
+        }
+      ],
+      "timestamp": "2025:07:09 13:42:00"
+    },
+    {
+      "id": "node_19_11_inh_1032m",
+      "scene_folder": "scene_19",
+      "name": "11_Đỉnh 1032m",
+      "filename": "11_Đỉnh 1032m.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/11_Đỉnh 1032m.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_19_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_19",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_19/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07921783,
+        "lng": 108.27504183,
+        "alt": 1068.29
+      },
+      "heading": 192.67,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_18_11_inh_1032m_2",
+          "target_name": "11_Đỉnh 1032m (2)",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.6,
+          "label": "→ 11_Đỉnh 1032m (2)"
+        }
+      ],
+      "timestamp": "2025:07:09 13:40:53"
+    },
+    {
+      "id": "node_20_12_ruong_lua",
+      "scene_folder": "scene_20",
+      "name": "12_Ruộng lúa",
+      "filename": "12_Ruộng lúa.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/12_Ruộng lúa.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_20_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_20",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_20/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.08271953,
+        "lng": 108.29601283,
+        "alt": 811.12
+      },
+      "heading": 65.63,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_01_01_nga_ba_keo_uc",
+          "target_name": "01_Ngã ba keo úc",
+          "yaw": 93.09,
+          "pitch": -10.0,
+          "distance_m": 486.7,
+          "label": "→ 01_Ngã ba keo úc"
+        },
+        {
+          "target_id": "node_21_13_khu_dan_cu_vung_em",
+          "target_name": "13_Khu dân cư vùng đệm",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 336.3,
+          "label": "→ 13_Khu dân cư vùng đệm"
+        }
+      ],
+      "timestamp": "2025:07:14 16:08:06"
+    },
+    {
+      "id": "node_21_13_khu_dan_cu_vung_em",
+      "scene_folder": "scene_21",
+      "name": "13_Khu dân cư vùng đệm",
+      "filename": "13_Khu dân cư vùng đệm.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/13_Khu dân cư vùng đệm.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_21_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_21",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_21/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.08396747,
+        "lng": 108.298853,
+        "alt": 811.32
+      },
+      "heading": 245.63,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_20_12_ruong_lua",
+          "target_name": "12_Ruộng lúa",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 336.3,
+          "label": "→ 12_Ruộng lúa"
+        }
+      ],
+      "timestamp": "2025:07:14 16:10:46"
+    },
+    {
+      "id": "node_22_14_giot_nuoc_lang_2",
+      "scene_folder": "scene_22",
+      "name": "14_Giọt nước làng (2)",
+      "filename": "14_Giọt nước làng (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/14_Giọt nước làng (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_22_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_22",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_22/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.08138558,
+        "lng": 108.27914142,
+        "alt": 1060.66
+      },
+      "heading": 274.19,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_23_14_giot_nuoc_lang",
+          "target_name": "14_Giọt nước làng",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.9,
+          "label": "→ 14_Giọt nước làng"
+        }
+      ],
+      "timestamp": "2025:07:09 13:36:46"
+    },
+    {
+      "id": "node_23_14_giot_nuoc_lang",
+      "scene_folder": "scene_23",
+      "name": "14_Giọt nước làng",
+      "filename": "14_Giọt nước làng.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/14_Giọt nước làng.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_23_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_23",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_23/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.08138617,
+        "lng": 108.27913311,
+        "alt": 994.06
+      },
+      "heading": 94.19,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_22_14_giot_nuoc_lang_2",
+          "target_name": "14_Giọt nước làng (2)",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.9,
+          "label": "→ 14_Giọt nước làng (2)"
+        }
+      ],
+      "timestamp": "2025:07:09 13:35:38"
+    },
+    {
+      "id": "node_24_15_cong_trung_tam_2",
+      "scene_folder": "scene_24",
+      "name": "15_Cổng Trung tâm (2)",
+      "filename": "15_Cổng Trung tâm (2).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/15_Cổng Trung tâm (2).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_24_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_24",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_24/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06315806,
+        "lng": 108.29447964,
+        "alt": 811.37
+      },
+      "heading": 16.91,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 229.51,
+          "pitch": -10.0,
+          "distance_m": 26.8,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 228.81,
+          "pitch": -10.0,
+          "distance_m": 27.2,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 234.04,
+          "pitch": -10.0,
+          "distance_m": 35.3,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 310.96,
+          "pitch": -10.0,
+          "distance_m": 367.5,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 311.23,
+          "pitch": -10.0,
+          "distance_m": 355.6,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 115.6,
+          "pitch": -10.0,
+          "distance_m": 1.5,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.3,
+          "label": "→ 15_Cổng Trung tâm"
+        }
+      ],
+      "timestamp": "2025:07:10 08:12:53"
+    },
+    {
+      "id": "node_25_15_cong_trung_tam_3",
+      "scene_folder": "scene_25",
+      "name": "15_Cổng Trung tâm (3)",
+      "filename": "15_Cổng Trung tâm (3).JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/15_Cổng Trung tâm (3).JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_25_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_25",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_25/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06314914,
+        "lng": 108.29448967,
+        "alt": 768.77
+      },
+      "heading": 312.51,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 296.72,
+          "pitch": -10.0,
+          "distance_m": 27.4,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 295.99,
+          "pitch": -10.0,
+          "distance_m": 27.8,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 300.5,
+          "pitch": -10.0,
+          "distance_m": 36.0,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 15.3,
+          "pitch": -10.0,
+          "distance_m": 368.9,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 15.56,
+          "pitch": -10.0,
+          "distance_m": 357.0,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 1.5,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_26_15_cong_trung_tam",
+          "target_name": "15_Cổng Trung tâm",
+          "yaw": 11.0,
+          "pitch": -10.0,
+          "distance_m": 1.6,
+          "label": "→ 15_Cổng Trung tâm"
+        }
+      ],
+      "timestamp": "2025:07:14 17:26:33"
+    },
+    {
+      "id": "node_26_15_cong_trung_tam",
+      "scene_folder": "scene_26",
+      "name": "15_Cổng Trung tâm",
+      "filename": "15_Cổng Trung tâm.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/15_Cổng Trung tâm.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_26_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_26",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_26/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06316106,
+        "lng": 108.29448058,
+        "alt": 741.52
+      },
+      "heading": 196.91,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_13_09_nha_hanh_chinh_trung_tam_2",
+          "target_name": "09_Nhà hành chính Trung tâm (2)",
+          "yaw": 48.95,
+          "pitch": -10.0,
+          "distance_m": 27.0,
+          "label": "→ 09_Nhà hành chính Trung tâm (2)"
+        },
+        {
+          "target_id": "node_14_09_nha_hanh_chinh_trung_tam_3",
+          "target_name": "09_Nhà hành chính Trung tâm (3)",
+          "yaw": 48.26,
+          "pitch": -10.0,
+          "distance_m": 27.4,
+          "label": "→ 09_Nhà hành chính Trung tâm (3)"
+        },
+        {
+          "target_id": "node_15_09_nha_hanh_chinh_trung_tam",
+          "target_name": "09_Nhà hành chính Trung tâm",
+          "yaw": 53.58,
+          "pitch": -10.0,
+          "distance_m": 35.5,
+          "label": "→ 09_Nhà hành chính Trung tâm"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 130.92,
+          "pitch": -10.0,
+          "distance_m": 367.3,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 131.19,
+          "pitch": -10.0,
+          "distance_m": 355.4,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        },
+        {
+          "target_id": "node_24_15_cong_trung_tam_2",
+          "target_name": "15_Cổng Trung tâm (2)",
+          "yaw": 360.0,
+          "pitch": -10.0,
+          "distance_m": 0.3,
+          "label": "→ 15_Cổng Trung tâm (2)"
+        },
+        {
+          "target_id": "node_25_15_cong_trung_tam_3",
+          "target_name": "15_Cổng Trung tâm (3)",
+          "yaw": 306.6,
+          "pitch": -10.0,
+          "distance_m": 1.6,
+          "label": "→ 15_Cổng Trung tâm (3)"
+        }
+      ],
+      "timestamp": "2025:07:10 08:11:45"
+    },
+    {
+      "id": "node_27_16_bo_sung_01",
+      "scene_folder": "scene_27",
+      "name": "16_Bổ sung 01",
+      "filename": "16_Bổ sung 01.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/16_Bổ sung 01.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_27_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_27",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_27/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.09546397,
+        "lng": 108.28073964,
+        "alt": 1028.64
+      },
+      "heading": 153.59,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [],
+      "timestamp": "2025:07:12 12:09:02"
+    },
+    {
+      "id": "node_28_17_bo_sung_02",
+      "scene_folder": "scene_28",
+      "name": "17_Bổ sung 02",
+      "filename": "17_Bổ sung 02.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/17_Bổ sung 02.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_28_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_28",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_28/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.07995314,
+        "lng": 108.283724,
+        "alt": 1048.35
+      },
+      "heading": 287.86,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [],
+      "timestamp": "2025:07:13 15:02:11"
+    },
+    {
+      "id": "node_29_18_bo_sung_03",
+      "scene_folder": "scene_29",
+      "name": "18_Bổ sung 03",
+      "filename": "18_Bổ sung 03.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/18_Bổ sung 03.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_29_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_29",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_29/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.08398972,
+        "lng": 108.28661489,
+        "alt": 907.96
+      },
+      "heading": 214.79,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [],
+      "timestamp": "2025:07:13 15:04:27"
+    },
+    {
+      "id": "node_30_19_bo_sung_04",
+      "scene_folder": "scene_30",
+      "name": "19_Bổ sung 04",
+      "filename": "19_Bổ sung 04.JPG",
+      "url": "https://pub-CHANGEME.r2.dev/panoramas/19_Bổ sung 04.JPG",
+      "thumbnail": "https://pub-CHANGEME.r2.dev/thumbnails/scene_30_thumb.jpg",
+      "tiles_url": "https://pub-CHANGEME.r2.dev/tiles/scene_30",
+      "tile_url_pattern": "https://pub-CHANGEME.r2.dev/tiles/scene_30/tile_{y}_{x}.jpg",
+      "tile_format": "flat_row_col",
+      "tile_info": {
+        "format": "flat_row_col",
+        "rows": 16,
+        "cols": 8
+      },
+      "gps": {
+        "lat": 14.06695978,
+        "lng": 108.29084683,
+        "alt": 843.92
+      },
+      "heading": 72.76,
+      "type": "equirectangular_360",
+      "confidence": "high",
+      "hotspots": [
+        {
+          "target_id": "node_09_07_suoi_vuon_thuc_vat_2",
+          "target_name": "07_Suối - vườn thực vật (2)",
+          "yaw": 234.43,
+          "pitch": -10.0,
+          "distance_m": 179.4,
+          "label": "→ 07_Suối - vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_10_07_suoi_vuon_thuc_vat",
+          "target_name": "07_Suối - vườn thực vật",
+          "yaw": 233.91,
+          "pitch": -10.0,
+          "distance_m": 179.4,
+          "label": "→ 07_Suối - vườn thực vật"
+        },
+        {
+          "target_id": "node_11_08_nga_3_rung_thong_vuon_thuc_vat_2",
+          "target_name": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+          "yaw": 0.0,
+          "pitch": -10.0,
+          "distance_m": 78.4,
+          "label": "→ 08_Ngã 3 rừng thông - Vườn thực vật (2)"
+        },
+        {
+          "target_id": "node_12_08_nga_3_rung_thong_vuon_thuc_vat",
+          "target_name": "08_Ngã 3 rừng thông - vườn thực vật",
+          "yaw": 358.92,
+          "pitch": -10.0,
+          "distance_m": 81.1,
+          "label": "→ 08_Ngã 3 rừng thông - vườn thực vật"
+        },
+        {
+          "target_id": "node_16_10_nga_3_rung_trac_2",
+          "target_name": "10_Ngã 3 rừng trắc (2)",
+          "yaw": 46.83,
+          "pitch": -10.0,
+          "distance_m": 225.9,
+          "label": "→ 10_Ngã 3 rừng trắc (2)"
+        },
+        {
+          "target_id": "node_17_10_nga_3_rung_trac",
+          "target_name": "10_Ngã 3 rừng trắc",
+          "yaw": 47.84,
+          "pitch": -10.0,
+          "distance_m": 237.1,
+          "label": "→ 10_Ngã 3 rừng trắc"
+        }
+      ],
+      "timestamp": "2025:07:14 16:48:24"
+    }
+  ]
+}

@@ -1,0 +1,4892 @@
+{
+  "version": "1.0",
+  "exported_at": "2026-04-25T23:43:11.554626",
+  "summary": {
+    "total_images": 30,
+    "images_with_gps": 30,
+    "images_360": 30,
+    "images_standard": 0,
+    "image_types_breakdown": {
+      "equirectangular_360": 30
+    },
+    "gps_coverage_percent": 100.0
+  },
+  "images": [
+    {
+      "id": "01_Ngã ba keo úc",
+      "filename": "01_Ngã ba keo úc.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.078641,
+          "lng": 108.29765075,
+          "altitude": 812.42
+        },
+        "heading_deg": 238.25,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 15:59:16"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "02_Ngã 3 rừng thông",
+      "filename": "02_Ngã 3 rừng thông.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07604931,
+          "lng": 108.29333297,
+          "altitude": 824.8
+        },
+        "heading_deg": 256.62,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:18:50"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "03_Ngã 4 KonBrung",
+      "filename": "03_Ngã 4 KonBrung.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07539589,
+          "lng": 108.29050056,
+          "altitude": 809.01
+        },
+        "heading_deg": 220.35,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:16:28"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "04_Ngã 3 vườn thực vật",
+      "filename": "04_Ngã 3 vườn thực vật.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07089772,
+          "lng": 108.28656097,
+          "altitude": 935.83
+        },
+        "heading_deg": 204.62,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:58:03"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "05_Chòi canh lửa (2)",
+      "filename": "05_Chòi canh lửa (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06717331,
+          "lng": 108.28480144,
+          "altitude": 926.96
+        },
+        "heading_deg": 87.61,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:11 18:02:54"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "05_Chòi canh lửa",
+      "filename": "05_Chòi canh lửa.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06717664,
+          "lng": 108.28488386,
+          "altitude": 943.87
+        },
+        "heading_deg": 229.81,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:00:45"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "06_964 - Mốc toạ độ Quốc gia (2)",
+      "filename": "06_964 - Mốc toạ độ Quốc gia (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06526636,
+          "lng": 108.28255275,
+          "altitude": 994.13
+        },
+        "heading_deg": 99.51,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:11 17:38:29"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "06_964 - Mốc toạ độ Quốc gia",
+      "filename": "06_964 - Mốc toạ độ Quốc gia.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06526206,
+          "lng": 108.28257922,
+          "altitude": 992.51
+        },
+        "heading_deg": 68.35,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:02:30"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "07_Suối - vườn thực vật (2)",
+      "filename": "07_Suối - vườn thực vật (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06793481,
+          "lng": 108.28952208,
+          "altitude": 827.49
+        },
+        "heading_deg": 218.08,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:07:05"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "07_Suối - vườn thực vật",
+      "filename": "07_Suối - vườn thực vật.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06792336,
+          "lng": 108.28951283,
+          "altitude": 813.65
+        },
+        "heading_deg": 110.99,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:11 17:50:53"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+      "filename": "08_Ngã 3 rừng thông - Vườn thực vật (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06716861,
+          "lng": 108.29154072,
+          "altitude": 836.35
+        },
+        "heading_deg": 43.17,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:09:00"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "08_Ngã 3 rừng thông - vườn thực vật",
+      "filename": "08_Ngã 3 rừng thông - vườn thực vật.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06718903,
+          "lng": 108.29156047,
+          "altitude": 792.23
+        },
+        "heading_deg": 147.68,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:13 17:53:30"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "09_Nhà hành chính Trung tâm (2)",
+      "filename": "09_Nhà hành chính Trung tâm (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06306167,
+          "lng": 108.29425194,
+          "altitude": 758.17
+        },
+        "heading_deg": 206.51,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:22:14"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "09_Nhà hành chính Trung tâm (3)",
+      "filename": "09_Nhà hành chính Trung tâm (3).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06305747,
+          "lng": 108.29424978,
+          "altitude": 817.3
+        },
+        "heading_deg": 267.84,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:23:25"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "09_Nhà hành chính Trung tâm",
+      "filename": "09_Nhà hành chính Trung tâm.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06305458,
+          "lng": 108.29417072,
+          "altitude": 764.81
+        },
+        "heading_deg": 333.33,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:10 08:09:02"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "10_Ngã 3 rừng trắc (2)",
+      "filename": "10_Ngã 3 rừng trắc (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06595686,
+          "lng": 108.29266789,
+          "altitude": 775.11
+        },
+        "heading_deg": 140.02,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:13 17:56:00"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "10_Ngã 3 rừng trắc",
+      "filename": "10_Ngã 3 rừng trắc.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06587439,
+          "lng": 108.29273919,
+          "altitude": 815.11
+        },
+        "heading_deg": 307.85,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:15:54"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "11_Đỉnh 1032m (2)",
+      "filename": "11_Đỉnh 1032m (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07921222,
+          "lng": 108.27504053,
+          "altitude": 1121.81
+        },
+        "heading_deg": 12.67,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:09 13:42:00"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "11_Đỉnh 1032m",
+      "filename": "11_Đỉnh 1032m.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07921783,
+          "lng": 108.27504183,
+          "altitude": 1068.29
+        },
+        "heading_deg": 80.23,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:09 13:40:53"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "12_Ruộng lúa",
+      "filename": "12_Ruộng lúa.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.08271953,
+          "lng": 108.29601283,
+          "altitude": 811.12
+        },
+        "heading_deg": 65.63,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:08:06"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "13_Khu dân cư vùng đệm",
+      "filename": "13_Khu dân cư vùng đệm.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.08396747,
+          "lng": 108.298853,
+          "altitude": 811.32
+        },
+        "heading_deg": 262.31,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:10:46"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "14_Giọt nước làng (2)",
+      "filename": "14_Giọt nước làng (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.08138558,
+          "lng": 108.27914142,
+          "altitude": 1060.66
+        },
+        "heading_deg": 274.19,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:09 13:36:46"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "14_Giọt nước làng",
+      "filename": "14_Giọt nước làng.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.08138617,
+          "lng": 108.27913311,
+          "altitude": 994.06
+        },
+        "heading_deg": 140.76,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:09 13:35:38"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "15_Cổng Trung tâm (2)",
+      "filename": "15_Cổng Trung tâm (2).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06315806,
+          "lng": 108.29447964,
+          "altitude": 811.37
+        },
+        "heading_deg": 132.51,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:10 08:12:53"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "15_Cổng Trung tâm (3)",
+      "filename": "15_Cổng Trung tâm (3).JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06314914,
+          "lng": 108.29448967,
+          "altitude": 768.77
+        },
+        "heading_deg": 323.51,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 17:26:33"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "15_Cổng Trung tâm",
+      "filename": "15_Cổng Trung tâm.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06316106,
+          "lng": 108.29448058,
+          "altitude": 741.52
+        },
+        "heading_deg": 337.58,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:10 08:11:45"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "16_Bổ sung 01",
+      "filename": "16_Bổ sung 01.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.09546397,
+          "lng": 108.28073964,
+          "altitude": 1028.64
+        },
+        "heading_deg": 169.43,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:12 12:09:02"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "17_Bổ sung 02",
+      "filename": "17_Bổ sung 02.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.07995314,
+          "lng": 108.283724,
+          "altitude": 1048.35
+        },
+        "heading_deg": 34.79,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:13 15:02:11"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "18_Bổ sung 03",
+      "filename": "18_Bổ sung 03.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.08398972,
+          "lng": 108.28661489,
+          "altitude": 907.96
+        },
+        "heading_deg": 166.45,
+        "heading_source": "gps_forward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:13 15:04:27"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    },
+    {
+      "id": "19_Bổ sung 04",
+      "filename": "19_Bổ sung 04.JPG",
+      "type": "equirectangular_360",
+      "is_360": true,
+      "dimensions": {
+        "width": 14400,
+        "height": 7200,
+        "megapixels": 103.68
+      },
+      "aspect_ratio": 2.0,
+      "fov": {
+        "horizontal": 360.0,
+        "vertical": 180.0
+      },
+      "spatial": {
+        "gps": {
+          "lat": 14.06695978,
+          "lng": 108.29084683,
+          "altitude": 843.92
+        },
+        "heading_deg": 166.45,
+        "heading_source": "gps_backward",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "has_gps": true
+      },
+      "temporal": {
+        "timestamp": "2025:07:14 16:48:24"
+      },
+      "camera": {
+        "make": "DJI",
+        "model": "M3E",
+        "software": "11.09.03.02",
+        "focal_length": 12.29,
+        "focal_length_35mm": 24.0,
+        "fov_estimated": 73.74
+      },
+      "quality": "high"
+    }
+  ],
+  "spatial_analysis": {
+    "has_spatial_data": true,
+    "bounding_box": {
+      "min_lat": 14.06305458,
+      "max_lat": 14.09546397,
+      "min_lng": 108.27504053,
+      "max_lng": 108.298853
+    },
+    "coverage_area_m2": 9223354.32,
+    "image_pairs": [
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 0.35,
+        "heading_diff_deg": 205.07,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 0.52,
+        "heading_diff_deg": 61.329999999999984,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 0.64,
+        "heading_diff_deg": 67.56,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 0.9,
+        "heading_diff_deg": 133.43,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1.47,
+        "heading_diff_deg": 191.0,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 1.62,
+        "heading_diff_deg": 107.09000000000002,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1.65,
+        "heading_diff_deg": 14.069999999999993,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 2.89,
+        "heading_diff_deg": 31.16000000000001,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 3.11,
+        "heading_diff_deg": 104.51,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 8.53,
+        "heading_diff_deg": 65.49000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 8.8,
+        "heading_diff_deg": 126.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 8.9,
+        "heading_diff_deg": 142.2,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 11.97,
+        "heading_diff_deg": 167.83,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 26.8,
+        "heading_diff_deg": 74.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 27.02,
+        "heading_diff_deg": 131.07,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 27.2,
+        "heading_diff_deg": 135.32999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 27.42,
+        "heading_diff_deg": 117.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 27.43,
+        "heading_diff_deg": 69.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 27.81,
+        "heading_diff_deg": 55.670000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 35.25,
+        "heading_diff_deg": 200.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 35.46,
+        "heading_diff_deg": 4.25,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 35.97,
+        "heading_diff_deg": 9.819999999999993,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 78.36,
+        "heading_diff_deg": 123.27999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 81.08,
+        "heading_diff_deg": 18.769999999999982,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 179.36,
+        "heading_diff_deg": 51.630000000000024,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 179.4,
+        "heading_diff_deg": 55.459999999999994,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 181.48,
+        "heading_diff_deg": 96.85000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 181.77,
+        "heading_diff_deg": 7.659999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 193.44,
+        "heading_diff_deg": 264.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 193.73,
+        "heading_diff_deg": 160.17000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 225.87,
+        "heading_diff_deg": 26.42999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 233.81,
+        "heading_diff_deg": 174.91000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 234.28,
+        "heading_diff_deg": 67.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 234.98,
+        "heading_diff_deg": 70.4,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 235.47,
+        "heading_diff_deg": 36.69000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 237.12,
+        "heading_diff_deg": 141.40000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "03_Ngã 4 KonBrung",
+        "distance_meters": 314.01,
+        "heading_diff_deg": 36.27000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 320.34,
+        "heading_diff_deg": 19.260000000000005,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 322.17,
+        "heading_diff_deg": 11.900000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 327.28,
+        "heading_diff_deg": 161.46,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 329.15,
+        "heading_diff_deg": 130.3,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 336.28,
+        "heading_diff_deg": 196.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 349.51,
+        "heading_diff_deg": 25.47999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 352.76,
+        "heading_diff_deg": 101.34000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 353.07,
+        "heading_diff_deg": 40.01000000000005,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 355.4,
+        "heading_diff_deg": 29.72999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 355.63,
+        "heading_diff_deg": 175.34000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 357.04,
+        "heading_diff_deg": 15.659999999999968,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 361.14,
+        "heading_diff_deg": 193.30999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 364.46,
+        "heading_diff_deg": 66.48999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 364.76,
+        "heading_diff_deg": 127.81999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 367.25,
+        "heading_diff_deg": 197.55999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 367.48,
+        "heading_diff_deg": 7.510000000000019,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 368.9,
+        "heading_diff_deg": 183.48999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 404.36,
+        "heading_diff_deg": 78.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 404.5,
+        "heading_diff_deg": 29.030000000000015,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 415.81,
+        "heading_diff_deg": 89.77000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 415.95,
+        "heading_diff_deg": 196.86,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 451.58,
+        "heading_diff_deg": 25.189999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "05_Chòi canh lửa (2)",
+        "distance_meters": 455.55,
+        "heading_diff_deg": 117.01,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 458.86,
+        "heading_diff_deg": 13.460000000000008,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 459.08,
+        "heading_diff_deg": 93.63000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 486.7,
+        "heading_diff_deg": 172.62,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 502.84,
+        "heading_diff_deg": 60.52999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 503.26,
+        "heading_diff_deg": 128.09,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 503.59,
+        "heading_diff_deg": 193.95999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 504.01,
+        "heading_diff_deg": 261.52,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 506.14,
+        "heading_diff_deg": 118.82000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 507.33,
+        "heading_diff_deg": 11.72999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 514.97,
+        "heading_diff_deg": 23.379999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 516.16,
+        "heading_diff_deg": 130.47000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 519.28,
+        "heading_diff_deg": 239.4,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 520.15,
+        "heading_diff_deg": 105.97,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 538.28,
+        "heading_diff_deg": 290.15999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 539.09,
+        "heading_diff_deg": 185.64999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 542.28,
+        "heading_diff_deg": 163.33999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 542.55,
+        "heading_diff_deg": 224.66999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 543.05,
+        "heading_diff_deg": 58.829999999999984,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 543.32,
+        "heading_diff_deg": 120.15999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "17_Bổ sung 02",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 546.51,
+        "heading_diff_deg": 131.66,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 546.93,
+        "heading_diff_deg": 294.40999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 547.14,
+        "heading_diff_deg": 89.33999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 547.55,
+        "heading_diff_deg": 189.89999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "02_Ngã 3 rừng thông",
+        "distance_meters": 547.65,
+        "heading_diff_deg": 18.370000000000005,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 547.76,
+        "heading_diff_deg": 15.170000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 548.57,
+        "heading_diff_deg": 280.34,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 549.2,
+        "heading_diff_deg": 175.82999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 563.12,
+        "heading_diff_deg": 166.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 568.13,
+        "heading_diff_deg": 40.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 568.34,
+        "heading_diff_deg": 101.38999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 576.23,
+        "heading_diff_deg": 171.13,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 576.4,
+        "heading_diff_deg": 33.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 577.87,
+        "heading_diff_deg": 157.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 606.3,
+        "heading_diff_deg": 24.060000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 636.74,
+        "heading_diff_deg": 38.170000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 643.62,
+        "heading_diff_deg": 63.360000000000014,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 652.49,
+        "heading_diff_deg": 78.83999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "04_Ngã 3 vườn thực vật",
+        "distance_meters": 656.3,
+        "heading_diff_deg": 15.72999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 678.55,
+        "heading_diff_deg": 161.45,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 678.86,
+        "heading_diff_deg": 56.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 718.01,
+        "heading_diff_deg": 186.64,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 720.14,
+        "heading_diff_deg": 82.13,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 726.9,
+        "heading_diff_deg": 44.44,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 729.03,
+        "heading_diff_deg": 60.07000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 738.58,
+        "heading_diff_deg": 222.33999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 738.84,
+        "heading_diff_deg": 115.24999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 744.0,
+        "heading_diff_deg": 95.52,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 744.18,
+        "heading_diff_deg": 156.84999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 744.24,
+        "heading_diff_deg": 11.570000000000022,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 744.42,
+        "heading_diff_deg": 49.75999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 753.34,
+        "heading_diff_deg": 226.58999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 753.51,
+        "heading_diff_deg": 21.519999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 753.53,
+        "heading_diff_deg": 119.49999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 753.69,
+        "heading_diff_deg": 85.57000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 754.97,
+        "heading_diff_deg": 212.51999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 755.16,
+        "heading_diff_deg": 105.42999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 759.7,
+        "heading_diff_deg": 136.27,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 760.92,
+        "heading_diff_deg": 105.11,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 796.02,
+        "heading_diff_deg": 190.99,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 804.28,
+        "heading_diff_deg": 42.64,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 805.68,
+        "heading_diff_deg": 149.73000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 806.76,
+        "heading_diff_deg": 11.47999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 808.16,
+        "heading_diff_deg": 118.57000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 836.32,
+        "heading_diff_deg": 2.269999999999982,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 837.71,
+        "heading_diff_deg": 109.36,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 850.48,
+        "heading_diff_deg": 89.78999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "03_Ngã 4 KonBrung",
+        "distance_meters": 851.43,
+        "heading_diff_deg": 17.900000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 856.47,
+        "heading_diff_deg": 107.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 857.29,
+        "heading_diff_deg": 25.689999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 857.74,
+        "heading_diff_deg": 64.6,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 859.19,
+        "heading_diff_deg": 52.41000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 859.57,
+        "heading_diff_deg": 78.04000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 868.27,
+        "heading_diff_deg": 220.24,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 869.52,
+        "heading_diff_deg": 103.23000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 889.37,
+        "heading_diff_deg": 185.56,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 911.51,
+        "heading_diff_deg": 98.1,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 914.21,
+        "heading_diff_deg": 66.93999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 919.69,
+        "heading_diff_deg": 72.66999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 921.69,
+        "heading_diff_deg": 177.18,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "04_Ngã 3 vườn thực vật",
+        "distance_meters": 928.24,
+        "heading_diff_deg": 52.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 938.8,
+        "heading_diff_deg": 53.900000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 939.97,
+        "heading_diff_deg": 45.440000000000005,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 940.17,
+        "heading_diff_deg": 22.119999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 989.57,
+        "heading_diff_deg": 25.179999999999993,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 991.5,
+        "heading_diff_deg": 38.53999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 992.14,
+        "heading_diff_deg": 79.33000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 992.26,
+        "heading_diff_deg": 56.34,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 993.08,
+        "heading_diff_deg": 145.63,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 994.82,
+        "heading_diff_deg": 48.17,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 1003.6,
+        "heading_diff_deg": 108.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 1006.23,
+        "heading_diff_deg": 213.45,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1008.28,
+        "heading_diff_deg": 154.72,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1023.39,
+        "heading_diff_deg": 100.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1043.45,
+        "heading_diff_deg": 53.900000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 1045.68,
+        "heading_diff_deg": 90.17000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1052.38,
+        "heading_diff_deg": 169.83,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 1062.85,
+        "heading_diff_deg": 5.689999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 1075.29,
+        "heading_diff_deg": 80.32999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 1085.93,
+        "heading_diff_deg": 87.50000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 1090.91,
+        "heading_diff_deg": 71.67000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 1093.73,
+        "heading_diff_deg": 40.510000000000005,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 1096.49,
+        "heading_diff_deg": 9.460000000000008,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 1097.98,
+        "heading_diff_deg": 239.50000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 1100.8,
+        "heading_diff_deg": 208.34000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1101.58,
+        "heading_diff_deg": 103.51999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "05_Chòi canh lửa (2)",
+        "distance_meters": 1101.73,
+        "heading_diff_deg": 132.74,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1109.21,
+        "heading_diff_deg": 38.02999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1109.23,
+        "heading_diff_deg": 23.30000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1109.52,
+        "heading_diff_deg": 245.71999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1117.16,
+        "heading_diff_deg": 180.22999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1117.18,
+        "heading_diff_deg": 118.89999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1123.61,
+        "heading_diff_deg": 221.83,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 1124.52,
+        "heading_diff_deg": 116.6,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1127.31,
+        "heading_diff_deg": 107.76999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1127.35,
+        "heading_diff_deg": 97.30000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1128.74,
+        "heading_diff_deg": 93.69999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 1133.21,
+        "heading_diff_deg": 51.23000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1135.34,
+        "heading_diff_deg": 249.96999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1135.37,
+        "heading_diff_deg": 44.89999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1136.76,
+        "heading_diff_deg": 235.89999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1142.18,
+        "heading_diff_deg": 90.17000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1197.62,
+        "heading_diff_deg": 128.70999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1203.07,
+        "heading_diff_deg": 1.8899999999999864,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1203.24,
+        "heading_diff_deg": 63.21999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1212.33,
+        "heading_diff_deg": 132.95999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1212.5,
+        "heading_diff_deg": 72.11000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1213.97,
+        "heading_diff_deg": 118.88999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1274.15,
+        "heading_diff_deg": 264.98,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1277.04,
+        "heading_diff_deg": 233.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1282.45,
+        "heading_diff_deg": 199.48999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1282.59,
+        "heading_diff_deg": 138.16,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1285.35,
+        "heading_diff_deg": 168.32999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1285.49,
+        "heading_diff_deg": 106.99999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1304.75,
+        "heading_diff_deg": 64.16,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1304.79,
+        "heading_diff_deg": 269.23,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1305.99,
+        "heading_diff_deg": 255.16,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1307.64,
+        "heading_diff_deg": 32.999999999999986,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1307.68,
+        "heading_diff_deg": 238.07,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1308.88,
+        "heading_diff_deg": 224.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 1311.47,
+        "heading_diff_deg": 41.96000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1319.91,
+        "heading_diff_deg": 95.86000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1330.58,
+        "heading_diff_deg": 71.80000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 1343.08,
+        "heading_diff_deg": 26.810000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "05_Chòi canh lửa (2)",
+        "distance_meters": 1349.39,
+        "heading_diff_deg": 169.01,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1356.3,
+        "heading_diff_deg": 86.21999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1356.67,
+        "heading_diff_deg": 153.78,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1360.62,
+        "heading_diff_deg": 30.839999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1394.47,
+        "heading_diff_deg": 53.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1395.29,
+        "heading_diff_deg": 79.59,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 1414.12,
+        "heading_diff_deg": 152.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1414.36,
+        "heading_diff_deg": 69.57,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1414.92,
+        "heading_diff_deg": 63.860000000000014,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 1415.46,
+        "heading_diff_deg": 120.83999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "16_Bổ sung 01",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1424.56,
+        "heading_diff_deg": 2.980000000000018,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1425.8,
+        "heading_diff_deg": 52.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1426.18,
+        "heading_diff_deg": 195.02,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1426.57,
+        "heading_diff_deg": 117.22999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1426.86,
+        "heading_diff_deg": 87.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1428.13,
+        "heading_diff_deg": 103.16,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1428.25,
+        "heading_diff_deg": 112.97999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1429.94,
+        "heading_diff_deg": 13.840000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1430.33,
+        "heading_diff_deg": 47.48999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 1432.85,
+        "heading_diff_deg": 90.57,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "distance_meters": 1435.84,
+        "heading_diff_deg": 195.07999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1438.44,
+        "heading_diff_deg": 80.95999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1438.77,
+        "heading_diff_deg": 124.11000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1439.85,
+        "heading_diff_deg": 66.88999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1447.56,
+        "heading_diff_deg": 50.110000000000014,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1447.77,
+        "heading_diff_deg": 76.70999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1448.01,
+        "heading_diff_deg": 11.21999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1455.78,
+        "heading_diff_deg": 38.170000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "04_Ngã 3 vườn thực vật",
+        "distance_meters": 1473.78,
+        "heading_diff_deg": 33.629999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1475.46,
+        "heading_diff_deg": 183.29000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1476.19,
+        "heading_diff_deg": 76.19999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "07_Suối - vườn thực vật (2)",
+        "distance_meters": 1478.48,
+        "heading_diff_deg": 20.169999999999987,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 1480.09,
+        "heading_diff_deg": 127.26,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 1491.87,
+        "heading_diff_deg": 71.80000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1509.13,
+        "heading_diff_deg": 203.46,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "10_Ngã 3 rừng trắc (2)",
+        "distance_meters": 1509.34,
+        "heading_diff_deg": 98.22999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 1515.21,
+        "heading_diff_deg": 69.60000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1548.77,
+        "heading_diff_deg": 191.95000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1549.03,
+        "heading_diff_deg": 124.39,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 1574.91,
+        "heading_diff_deg": 104.75999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 1574.94,
+        "heading_diff_deg": 28.670000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "17_Bổ sung 02",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 1636.35,
+        "heading_diff_deg": 131.66,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1637.97,
+        "heading_diff_deg": 64.72,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1638.23,
+        "heading_diff_deg": 33.559999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1641.62,
+        "heading_diff_deg": 17.569999999999993,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1642.48,
+        "heading_diff_deg": 115.86000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1651.91,
+        "heading_diff_deg": 112.89000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1652.78,
+        "heading_diff_deg": 8.380000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1663.5,
+        "heading_diff_deg": 138.99,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 1668.56,
+        "heading_diff_deg": 188.27,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 1670.21,
+        "heading_diff_deg": 157.11,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1691.67,
+        "heading_diff_deg": 227.52,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1694.14,
+        "heading_diff_deg": 186.57999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1694.53,
+        "heading_diff_deg": 53.14999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1697.02,
+        "heading_diff_deg": 44.379999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1697.41,
+        "heading_diff_deg": 89.05000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1703.05,
+        "heading_diff_deg": 74.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1703.46,
+        "heading_diff_deg": 7.3799999999999955,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1708.27,
+        "heading_diff_deg": 217.14000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1708.67,
+        "heading_diff_deg": 149.57999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1720.6,
+        "heading_diff_deg": 207.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1720.62,
+        "heading_diff_deg": 140.12,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1749.63,
+        "heading_diff_deg": 86.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1750.12,
+        "heading_diff_deg": 19.28,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 1751.38,
+        "heading_diff_deg": 55.67999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 1751.87,
+        "heading_diff_deg": 11.88000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "16_Bổ sung 01",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1754.5,
+        "heading_diff_deg": 134.64000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1754.92,
+        "heading_diff_deg": 99.32999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 1755.27,
+        "heading_diff_deg": 105.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1756.03,
+        "heading_diff_deg": 85.25999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "09_Nhà hành chính Trung tâm (2)",
+        "distance_meters": 1770.71,
+        "heading_diff_deg": 31.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 1771.21,
+        "heading_diff_deg": 29.589999999999975,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 1773.31,
+        "heading_diff_deg": 95.07999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1786.84,
+        "heading_diff_deg": 152.45000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1788.4,
+        "heading_diff_deg": 45.36,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1792.44,
+        "heading_diff_deg": 82.05000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1795.2,
+        "heading_diff_deg": 22.459999999999994,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1812.55,
+        "heading_diff_deg": 51.630000000000024,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1813.63,
+        "heading_diff_deg": 55.459999999999994,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1825.67,
+        "heading_diff_deg": 208.56,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1826.56,
+        "heading_diff_deg": 75.13,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1829.75,
+        "heading_diff_deg": 174.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1830.0,
+        "heading_diff_deg": 41.249999999999986,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1830.8,
+        "heading_diff_deg": 205.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1831.04,
+        "heading_diff_deg": 72.41,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1831.04,
+        "heading_diff_deg": 105.23000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 1838.85,
+        "heading_diff_deg": 100.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 1842.88,
+        "heading_diff_deg": 273.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1868.3,
+        "heading_diff_deg": 56.109999999999985,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 1868.72,
+        "heading_diff_deg": 163.2,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1868.89,
+        "heading_diff_deg": 77.32000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 1869.31,
+        "heading_diff_deg": 29.769999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 1876.49,
+        "heading_diff_deg": 8.439999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1878.83,
+        "heading_diff_deg": 63.360000000000014,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1880.1,
+        "heading_diff_deg": 78.83999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "05_Chòi canh lửa (2)",
+        "distance_meters": 1883.27,
+        "heading_diff_deg": 150.64,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1898.52,
+        "heading_diff_deg": 74.39000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 1906.08,
+        "heading_diff_deg": 242.22000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 1908.15,
+        "heading_diff_deg": 89.2,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 1908.78,
+        "heading_diff_deg": 156.76000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1942.81,
+        "heading_diff_deg": 18.769999999999982,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 1944.41,
+        "heading_diff_deg": 123.27999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "18_Bổ sung 03",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 1947.88,
+        "heading_diff_deg": 0.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 1967.16,
+        "heading_diff_deg": 57.69,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2003.04,
+        "heading_diff_deg": 205.41000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2003.06,
+        "heading_diff_deg": 98.32,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2003.32,
+        "heading_diff_deg": 137.85000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2003.34,
+        "heading_diff_deg": 30.75999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2004.01,
+        "heading_diff_deg": 176.39,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2004.04,
+        "heading_diff_deg": 243.95000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2019.5,
+        "heading_diff_deg": 35.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2020.4,
+        "heading_diff_deg": 97.49000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2024.7,
+        "heading_diff_deg": 114.63,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2027.62,
+        "heading_diff_deg": 219.14,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 2041.32,
+        "heading_diff_deg": 107.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 2041.93,
+        "heading_diff_deg": 25.689999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2047.2,
+        "heading_diff_deg": 44.22999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2048.8,
+        "heading_diff_deg": 151.32,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2070.3,
+        "heading_diff_deg": 126.50999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2070.65,
+        "heading_diff_deg": 231.01999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2070.93,
+        "heading_diff_deg": 6.920000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2071.28,
+        "heading_diff_deg": 97.58999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 2078.99,
+        "heading_diff_deg": 95.86000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2104.23,
+        "heading_diff_deg": 164.18,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2108.77,
+        "heading_diff_deg": 26.42999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2109.62,
+        "heading_diff_deg": 21.980000000000004,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2110.87,
+        "heading_diff_deg": 122.28999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2117.17,
+        "heading_diff_deg": 45.54000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2119.87,
+        "heading_diff_deg": 141.40000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2127.43,
+        "heading_diff_deg": 98.1,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2127.54,
+        "heading_diff_deg": 66.93999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2145.25,
+        "heading_diff_deg": 11.879999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2146.13,
+        "heading_diff_deg": 121.55000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2172.91,
+        "heading_diff_deg": 103.80000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2181.07,
+        "heading_diff_deg": 271.95,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2181.41,
+        "heading_diff_deg": 66.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "12_Ruộng lúa",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2182.32,
+        "heading_diff_deg": 257.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 2182.34,
+        "heading_diff_deg": 153.78,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 2182.62,
+        "heading_diff_deg": 86.21999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2190.97,
+        "heading_diff_deg": 298.53999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2194.09,
+        "heading_diff_deg": 140.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2194.58,
+        "heading_diff_deg": 202.20999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2194.82,
+        "heading_diff_deg": 171.72,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2195.1,
+        "heading_diff_deg": 233.04999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2195.65,
+        "heading_diff_deg": 267.7,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2198.28,
+        "heading_diff_deg": 302.78999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2198.51,
+        "heading_diff_deg": 97.72,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "17_Bổ sung 02",
+        "distance_meters": 2199.93,
+        "heading_diff_deg": 288.71999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 2203.56,
+        "heading_diff_deg": 169.9,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "distance_meters": 2205.35,
+        "heading_diff_deg": 138.74,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2227.25,
+        "heading_diff_deg": 30.5,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2227.51,
+        "heading_diff_deg": 37.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2227.59,
+        "heading_diff_deg": 135.01000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2227.85,
+        "heading_diff_deg": 67.45,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2252.05,
+        "heading_diff_deg": 134.17,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2252.68,
+        "heading_diff_deg": 0.7399999999999807,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2264.02,
+        "heading_diff_deg": 33.660000000000025,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2264.65,
+        "heading_diff_deg": 167.09000000000003,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2295.07,
+        "heading_diff_deg": 14.600000000000009,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2295.32,
+        "heading_diff_deg": 52.959999999999994,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2334.62,
+        "heading_diff_deg": 92.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2361.14,
+        "heading_diff_deg": 75.26999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2361.49,
+        "heading_diff_deg": 129.8,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "13_Khu dân cư vùng đệm",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2362.25,
+        "heading_diff_deg": 61.19999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2377.0,
+        "heading_diff_deg": 55.80000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2377.5,
+        "heading_diff_deg": 5.529999999999973,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2379.61,
+        "heading_diff_deg": 71.01999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2399.15,
+        "heading_diff_deg": 32.5,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2405.03,
+        "heading_diff_deg": 174.7,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2405.66,
+        "heading_diff_deg": 127.35000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2405.93,
+        "heading_diff_deg": 59.790000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2417.36,
+        "heading_diff_deg": 295.18,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2417.63,
+        "heading_diff_deg": 227.62,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2422.3,
+        "heading_diff_deg": 2.719999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "12_Ruộng lúa",
+        "distance_meters": 2423.62,
+        "heading_diff_deg": 33.88000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2439.32,
+        "heading_diff_deg": 158.01999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2439.45,
+        "heading_diff_deg": 225.58,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2466.41,
+        "heading_diff_deg": 166.88,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2466.53,
+        "heading_diff_deg": 171.13,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2466.81,
+        "heading_diff_deg": 33.94,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "03_Ngã 4 KonBrung",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2467.33,
+        "heading_diff_deg": 50.91999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2468.11,
+        "heading_diff_deg": 157.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2468.58,
+        "heading_diff_deg": 40.06,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "18_Bổ sung 03",
+        "distance_meters": 2468.94,
+        "heading_diff_deg": 101.38999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "02_Ngã 3 rừng thông",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2550.53,
+        "heading_diff_deg": 87.19,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2604.32,
+        "heading_diff_deg": 59.139999999999986,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2604.93,
+        "heading_diff_deg": 192.57,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2609.16,
+        "heading_diff_deg": 67.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "14_Giọt nước làng (2)",
+        "distance_meters": 2609.38,
+        "heading_diff_deg": 6.350000000000023,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2609.77,
+        "heading_diff_deg": 65.75,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 2609.99,
+        "heading_diff_deg": 127.07999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "01_Ngã ba keo úc",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2612.62,
+        "heading_diff_deg": 68.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2616.07,
+        "heading_diff_deg": 63.389999999999986,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2616.26,
+        "heading_diff_deg": 141.68,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2616.68,
+        "heading_diff_deg": 196.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2616.88,
+        "heading_diff_deg": 8.25,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2617.71,
+        "heading_diff_deg": 49.31999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2618.33,
+        "heading_diff_deg": 182.75,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2621.86,
+        "heading_diff_deg": 182.07999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2622.13,
+        "heading_diff_deg": 249.64000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2721.59,
+        "heading_diff_deg": 193.96,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "13_Khu dân cư vùng đệm",
+        "distance_meters": 2723.06,
+        "heading_diff_deg": 162.8,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2735.94,
+        "heading_diff_deg": 320.65999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2736.24,
+        "heading_diff_deg": 253.09999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2742.04,
+        "heading_diff_deg": 193.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "11_Đỉnh 1032m (2)",
+        "distance_meters": 2742.17,
+        "heading_diff_deg": 255.17,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2742.34,
+        "heading_diff_deg": 126.27999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 2742.47,
+        "heading_diff_deg": 187.60999999999996,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2753.54,
+        "heading_diff_deg": 324.90999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2753.68,
+        "heading_diff_deg": 119.83999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 2753.84,
+        "heading_diff_deg": 257.34999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 2753.98,
+        "heading_diff_deg": 52.27999999999999,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2755.15,
+        "heading_diff_deg": 310.84,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 2755.45,
+        "heading_diff_deg": 243.27999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "04_Ngã 3 vườn thực vật",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 2802.87,
+        "heading_diff_deg": 35.19,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3176.13,
+        "heading_diff_deg": 81.82000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "05_Chòi canh lửa",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3177.01,
+        "heading_diff_deg": 60.379999999999995,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3204.31,
+        "heading_diff_deg": 48.650000000000006,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3205.23,
+        "heading_diff_deg": 58.44000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "16_Bổ sung 01",
+        "image_b": "19_Bổ sung 04",
+        "distance_meters": 3351.74,
+        "heading_diff_deg": 2.980000000000018,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - vườn thực vật",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3353.65,
+        "heading_diff_deg": 21.75,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3355.04,
+        "heading_diff_deg": 126.26,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3363.51,
+        "heading_diff_deg": 69.92,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3364.15,
+        "heading_diff_deg": 101.08000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3524.25,
+        "heading_diff_deg": 29.409999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3535.6,
+        "heading_diff_deg": 138.42000000000002,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3884.01,
+        "heading_diff_deg": 163.89999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3885.65,
+        "heading_diff_deg": 168.14999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3885.92,
+        "heading_diff_deg": 36.920000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3886.56,
+        "heading_diff_deg": 37.079999999999984,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3886.9,
+        "heading_diff_deg": 98.40999999999997,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "16_Bổ sung 01",
+        "distance_meters": 3887.25,
+        "heading_diff_deg": 154.07999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": false
+      }
+    ],
+    "stitch_candidates": [
+      {
+        "image_a": "06_964 - Mốc toạ độ Quốc gia (2)",
+        "image_b": "06_964 - Mốc toạ độ Quốc gia",
+        "distance_meters": 2.89,
+        "heading_diff_deg": 31.16000000000001,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "07_Suối - vườn thực vật (2)",
+        "image_b": "07_Suối - vườn thực vật",
+        "distance_meters": 1.62,
+        "heading_diff_deg": 107.09000000000002,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "08_Ngã 3 rừng thông - Vườn thực vật (2)",
+        "image_b": "08_Ngã 3 rừng thông - vườn thực vật",
+        "distance_meters": 3.11,
+        "heading_diff_deg": 104.51,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "09_Nhà hành chính Trung tâm (3)",
+        "distance_meters": 0.52,
+        "heading_diff_deg": 61.329999999999984,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "11_Đỉnh 1032m (2)",
+        "image_b": "11_Đỉnh 1032m",
+        "distance_meters": 0.64,
+        "heading_diff_deg": 67.56,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "14_Giọt nước làng (2)",
+        "image_b": "14_Giọt nước làng",
+        "distance_meters": 0.9,
+        "heading_diff_deg": 133.43,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 1.47,
+        "heading_diff_deg": 191.0,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 0.35,
+        "heading_diff_deg": 205.07,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      },
+      {
+        "image_a": "15_Cổng Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 1.65,
+        "heading_diff_deg": 14.069999999999993,
+        "stitch_candidate": true,
+        "tour_link_candidate": false
+      }
+    ],
+    "tour_link_candidates": [
+      {
+        "image_a": "05_Chòi canh lửa (2)",
+        "image_b": "05_Chòi canh lửa",
+        "distance_meters": 8.9,
+        "heading_diff_deg": 142.2,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 8.8,
+        "heading_diff_deg": 126.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 26.8,
+        "heading_diff_deg": 74.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 27.42,
+        "heading_diff_deg": 117.0,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (2)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 27.02,
+        "heading_diff_deg": 131.07,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "09_Nhà hành chính Trung tâm",
+        "distance_meters": 8.53,
+        "heading_diff_deg": 65.49000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 27.2,
+        "heading_diff_deg": 135.32999999999998,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 27.81,
+        "heading_diff_deg": 55.670000000000016,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm (3)",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 27.43,
+        "heading_diff_deg": 69.74000000000001,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm (2)",
+        "distance_meters": 35.25,
+        "heading_diff_deg": 200.82,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm (3)",
+        "distance_meters": 35.97,
+        "heading_diff_deg": 9.819999999999993,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "09_Nhà hành chính Trung tâm",
+        "image_b": "15_Cổng Trung tâm",
+        "distance_meters": 35.46,
+        "heading_diff_deg": 4.25,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      },
+      {
+        "image_a": "10_Ngã 3 rừng trắc (2)",
+        "image_b": "10_Ngã 3 rừng trắc",
+        "distance_meters": 11.97,
+        "heading_diff_deg": 167.83,
+        "stitch_candidate": false,
+        "tour_link_candidate": true
+      }
+    ]
+  },
+  "ai_task": {
+    "goal": "stitch_panorama",
+    "instructions": "Analyze image groups and determine stitchable sets using GPS, heading, FOV, and time. Return stitch groups and stitching parameters."
+  }
+}

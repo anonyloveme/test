@@ -1,0 +1,18 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found" description="The requested tour page could not be found.">
+  <main class="flex min-h-screen items-center justify-center px-6">
+    <div class="max-w-md rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-xl">
+      <p class="text-xs uppercase tracking-[0.4em] text-emerald-300">404</p>
+      <h1 class="mt-4 text-3xl font-semibold text-white">Page not found</h1>
+      <p class="mt-3 text-sm leading-6 text-slate-300">
+        The page you requested does not exist or has not been published yet.
+      </p>
+      <a href="/" class="btn-glass mt-6 inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white">
+        Back to home
+      </a>
+    </div>
+  </main>
+</BaseLayout>

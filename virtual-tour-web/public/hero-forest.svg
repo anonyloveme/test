@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07232A"/>
+      <stop offset="70%" stop-color="#0A1A18"/>
+      <stop offset="100%" stop-color="#040808"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5A533"/>
+      <stop offset="50%" stop-color="#34D39922"/>
+      <stop offset="100%" stop-color="#0EA5A500"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <ellipse cx="430" cy="210" rx="280" ry="120" fill="#0F766E" opacity="0.22"/>
+  <ellipse cx="1190" cy="180" rx="300" ry="140" fill="#115E59" opacity="0.18"/>
+  <rect y="560" width="1600" height="340" fill="#030712"/>
+  <g fill="#06281E">
+    <path d="M90 700L170 500L250 700H90Z"/>
+    <path d="M170 700L270 450L370 700H170Z" opacity="0.9"/>
+    <path d="M320 700L430 430L540 700H320Z" opacity="0.85"/>
+    <path d="M490 700L590 470L690 700H490Z" opacity="0.95"/>
+    <path d="M640 700L760 400L880 700H640Z" opacity="0.82"/>
+    <path d="M820 700L930 450L1040 700H820Z" opacity="0.9"/>
+    <path d="M980 700L1100 420L1220 700H980Z" opacity="0.84"/>
+    <path d="M1160 700L1270 470L1380 700H1160Z" opacity="0.92"/>
+    <path d="M1340 700L1430 480L1520 700H1340Z" opacity="0.88"/>
+  </g>
+  <g fill="#0B3B2F" opacity="0.75">
+    <path d="M0 760H1600V900H0Z"/>
+    <path d="M0 720C180 690 320 690 480 724C650 760 820 760 970 724C1140 684 1320 684 1600 720V900H0Z"/>
+  </g>
+  <g fill="url(#mist)" opacity="0.8">
+    <ellipse cx="300" cy="530" rx="260" ry="70"/>
+    <ellipse cx="840" cy="500" rx="360" ry="90"/>
+    <ellipse cx="1280" cy="540" rx="280" ry="75"/>
+  </g>
+</svg>

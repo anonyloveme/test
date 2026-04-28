@@ -1,0 +1,12 @@
+---
+export const prerender = false;
+
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { AdminPanel } from '@components/islands/AdminPanel';
+---
+
+<BaseLayout title="Admin — Virtual Tour" description="Virtual Tour administration dashboard">
+  <main class="min-h-screen bg-[#06080f] text-slate-100">
+    <AdminPanel client:load />
+  </main>
+</BaseLayout>
