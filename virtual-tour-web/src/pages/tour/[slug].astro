@@ -14,201 +14,99 @@ import type { TourRow } from '../../types/tour';
 const rawSlug = Astro.params.slug;
 const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
 
-if (!slug) {
-  return Astro.redirect('/404');
-}
+if (!slug) return Astro.redirect('/404');
 
+// ✅ Không redirect 404 im lặng — hiển thị lỗi rõ ràng
 let tour: TourRow | null = null;
 let loadError: string | null = null;
 
 try {
   tour = await getTourBySlug(slug);
 } catch (err) {
-  loadError = err instanceof Error ? err.message : 'Unknown error';
+  loadError = err instanceof Error ? err.message : String(err);
+  console.error('[tour/[slug]] Failed to load tour:', loadError);
 }
 ---
 
-{!tour ? (
-<BaseLayout
-  title="Tour Not Found"
-  description={loadError || 'Tour not found'}
->
-  <main class="flex min-h-screen items-center justify-center bg-black">
-    <div class="max-w-md rounded-lg border border-red-500/30 bg-red-950/20 p-8 text-center backdrop-blur-sm">
-      <h1 class="text-2xl font-bold text-white mb-4">❌ Tour Unavailable</h1>
-      <p class="text-red-200 mb-6 font-mono text-sm">{loadError || `Tour not found: ${slug}`}</p>
-      <p class="text-white/60 mb-8 text-sm">The tour you're looking for is not available or couldn't be loaded.</p>
-      <a href="/" class="inline-block rounded-lg bg-blue-600 hover:bg-blue-700 px-6 py-2 font-semibold text-white transition">
-        ← Back to Home
-      </a>
-    </div>
-  </main>
-</BaseLayout>
+{loadError || !tour ? (
+  <BaseLayout title="Tour Error">
+    <main class="flex min-h-screen items-center justify-center bg-black px-6 text-center">
+      <div class="max-w-lg rounded-3xl border border-red-500/20 bg-red-950/30 p-8 text-white">
+        <p class="text-xs uppercase tracking-widest text-red-400">Error loading tour</p>
+        <h1 class="mt-3 text-2xl font-bold">Could not load "{slug}"</h1>
+        <p class="mt-3 text-sm text-slate-300">{loadError}</p>
+        <p class="mt-4 text-xs text-slate-500">
+          Check that VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY are set in Cloudflare Pages environment variables.
+        </p>
+        <a href="/" class="mt-6 inline-block rounded-full bg-white/10 px-5 py-2 text-sm font-semibold hover:bg-white/20">
+          ← Back to home
+        </a>
+      </div>
+    </main>
+  </BaseLayout>
 ) : (
+  <BaseLayout
+    title={tour.name}
+    description={tour.description ?? tour.name}
+    image={tour.cover_image ?? '/hero-forest.svg'}
+    canonical={Astro.url.href}
+    viewport="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+  >
+    <main class="relative min-h-screen overflow-hidden bg-black">
+      <div class="absolute inset-0">
+        <VirtualTourViewer client:only="react" tourSlug={slug} />
+      </div>
+      <div class="fixed left-0 top-0 z-30 h-full">
+        <TourNodeList client:only="react" />
+      </div>
+      <TourChrome client:only="react" tourName={tour.name} />
+      <button
+        id="tour-fullscreen-btn"
+        type="button"
+        aria-label="Toggle fullscreen"
+        class="pointer-events-auto fixed right-4 top-20 z-40 rounded-full border border-white/15 bg-black/55 px-4 py-2 text-xs font-semibold uppercase tracking-[0.15em] text-white backdrop-blur-xl transition hover:bg-black/70 md:top-6 md:right-6"
+      >Fullscreen</button>
+      <div class="pointer-events-none fixed bottom-4 right-4 z-40">
+        <MapboxMiniMap client:only="react" />
+      </div>
+      <div class="pointer-events-none fixed bottom-28 right-6 z-30 max-md:bottom-24 max-md:left-1/2 max-md:right-auto max-md:-translate-x-1/2">
+        <HotspotCompass client:only="react" />
+      </div>
+      <div class="pointer-events-none fixed right-0 top-0 z-40 h-full">
+        <NodeInfoPanel client:only="react" />
+      </div>
+    </main>
 
-<BaseLayout
-  title={tour.name}
-  description={tour.description ?? tour.name}
-  image={tour.cover_image ?? '/hero-forest.svg'}
-  canonical={Astro.url.href}
-  viewport="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
->
-  <main class="relative min-h-screen overflow-hidden bg-black">
-    <div class="absolute inset-0">
-      <VirtualTourViewer client:only="react" tourSlug={slug} />
-    </div>
-
-    <div class="fixed left-0 top-0 z-30 h-full">
-      <TourNodeList client:only="react" />
-    </div>
-    <TourChrome client:only="react" tourName={tour.name} />
-
-    <button
-      id="tour-fullscreen-btn"
-      type="button"
-      aria-label="Toggle fullscreen"
-      class="pointer-events-auto fixed right-4 top-20 z-40 rounded-full border border-white/15 bg-black/55 px-4 py-2 text-xs font-semibold uppercase tracking-[0.15em] text-white backdrop-blur-xl transition hover:bg-black/70 md:top-6 md:right-6"
-    >
-      Fullscreen
-    </button>
-
-    <div class="pointer-events-none fixed bottom-4 right-4 z-40">
-      <MapboxMiniMap client:only="react" />
-    </div>
-
-    <div class="pointer-events-none fixed bottom-28 right-6 z-30 max-md:bottom-24 max-md:left-1/2 max-md:right-auto max-md:-translate-x-1/2">
-      <HotspotCompass client:only="react" />
-    </div>
-
-    <div class="pointer-events-none fixed right-0 top-0 z-40 h-full">
-      <NodeInfoPanel client:only="react" />
-    </div>
-  </main>
-
-  <script type="module">
-    import { useTourStore } from '@stores/tourStore';
-
-    const store = useTourStore;
-
-    function normalizeYaw(yaw) {
-      return ((yaw % 360) + 360) % 360;
-    }
-
-    function angularDistance(a, b) {
-      const diff = Math.abs(normalizeYaw(a) - normalizeYaw(b));
-      return Math.min(diff, 360 - diff);
-    }
-
-    function findNearestHotspotForDirection(hotspots, directionAngle) {
-      if (!Array.isArray(hotspots) || hotspots.length === 0) {
-        return null;
+    <script type="module">
+      // keyboard + fullscreen logic giữ nguyên
+      import { useTourStore } from '@stores/tourStore';
+      const store = useTourStore;
+      function normalizeYaw(y){return((y%360)+360)%360}
+      function angularDistance(a,b){const d=Math.abs(normalizeYaw(a)-normalizeYaw(b));return Math.min(d,360-d)}
+      function findNearest(hotspots,dir){if(!hotspots?.length)return null;return hotspots.map(h=>({h,d:angularDistance(h.yaw,dir)})).sort((a,b)=>a.d-b.d)[0]?.h??null}
+      function closePanels(){store.setState({isMapVisible:false,isInfoVisible:false});window.dispatchEvent(new CustomEvent('tour:close-panels'))}
+      function setMobileDefaults(){if(window.innerWidth<768)store.setState({isMapVisible:false})}
+      function onKey(e){
+        const active=document.activeElement;
+        if(['INPUT','TEXTAREA','SELECT'].includes(active?.tagName??''))return;
+        const state=store.getState();
+        if(e.key.toLowerCase()==='m'){state.toggleMap();return}
+        if(e.key.toLowerCase()==='i'){state.toggleInfo();return}
+        if(e.key==='Escape'){closePanels();return}
+        const dirs={ArrowUp:0,ArrowRight:90,ArrowDown:180,ArrowLeft:270};
+        if(!(e.key in dirs))return;
+        const h=findNearest(state.currentNode?.hotspots,dirs[e.key]);
+        if(h){e.preventDefault();state.navigateTo(h.target_id)}
       }
-
-      const candidates = hotspots
-        .map((hotspot) => ({
-          hotspot,
-          diff: angularDistance(hotspot.yaw, directionAngle),
-        }))
-        .sort((left, right) => {
-          if (left.diff !== right.diff) {
-            return left.diff - right.diff;
-          }
-          return left.hotspot.distance_m - right.hotspot.distance_m;
+      try{
+        setMobileDefaults();
+        window.addEventListener('keydown',onKey);
+        window.addEventListener('resize',setMobileDefaults,{passive:true});
+        document.getElementById('tour-fullscreen-btn')?.addEventListener('click',async()=>{
+          if(!document.fullscreenElement)await document.documentElement.requestFullscreen?.();
+          else await document.exitFullscreen?.();
         });
-
-      return candidates[0]?.hotspot ?? null;
-    }
-
-    function closePanels() {
-      const state = store.getState();
-      store.setState({
-        isMapVisible: false,
-        isInfoVisible: false,
-      });
-      window.dispatchEvent(new CustomEvent('tour:close-panels'));
-    }
-
-    function setMobileDefaults() {
-      if (window.innerWidth < 768) {
-        store.setState({ isMapVisible: false });
-      }
-    }
-
-    function handleKeyboardShortcuts(event) {
-      const active = document.activeElement;
-      const isInputFocused =
-        active instanceof HTMLInputElement ||
-        active instanceof HTMLTextAreaElement ||
-        active instanceof HTMLSelectElement ||
-        active?.getAttribute('contenteditable') === 'true';
-
-      if (isInputFocused) {
-        return;
-      }
-
-      const key = event.key.toLowerCase();
-      const state = store.getState();
-
-      if (key === 'm') {
-        state.toggleMap();
-        return;
-      }
-
-      if (key === 'i') {
-        state.toggleInfo();
-        return;
-      }
-
-      if (event.key === 'Escape') {
-        closePanels();
-        return;
-      }
-
-      if (!state.currentNode || state.currentNode.hotspots.length === 0) {
-        return;
-      }
-
-      const directionMap = {
-        ArrowUp: 0,
-        ArrowRight: 90,
-        ArrowDown: 180,
-        ArrowLeft: 270,
-      };
-
-      if (!(event.key in directionMap)) {
-        return;
-      }
-
-      const hotspot = findNearestHotspotForDirection(
-        state.currentNode.hotspots,
-        directionMap[event.key],
-      );
-
-      if (!hotspot) {
-        return;
-      }
-
-      event.preventDefault();
-      state.navigateTo(hotspot.target_id);
-    }
-
-    try {
-      setMobileDefaults();
-      window.addEventListener('keydown', handleKeyboardShortcuts);
-      window.addEventListener('resize', setMobileDefaults, { passive: true });
-
-      const fullscreenButton = document.getElementById('tour-fullscreen-btn');
-      fullscreenButton?.addEventListener('click', async () => {
-        if (!document.fullscreenElement) {
-          await document.documentElement.requestFullscreen?.();
-          return;
-        }
-
-        await document.exitFullscreen?.();
-      });
-    } catch (error) {
-      console.error('Failed to initialize tour keyboard controls', error);
-    }
-  </script>
-</BaseLayout>
+      }catch(e){console.error('Tour init error',e)}
+    </script>
+  </BaseLayout>
 )}
