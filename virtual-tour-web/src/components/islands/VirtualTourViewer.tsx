@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { r2 } from '@services/r2';
-import { getTourBySlug, getTourNodes } from '@services/supabase';
+import { getTourBySlug, getTourNodes, getHotspotsForTour } from '@services/supabase';
 import { useCurrentNode, useTourStore } from '@stores/tourStore';
-import type { TourManifest, TourNode, TourNodeRow, TourRow } from '../../types/tour';
+import type { HotspotRow, TourManifest, TourNode, TourNodeRow, TourRow } from '../../types/tour';
 
 interface VirtualTourViewerProps {
   tourSlug: string;
@@ -58,7 +58,19 @@ function nodeFromRow(row: TourNodeRow, fallbackIndex: number): TourNode {
     url: row.panorama_url ?? metadataNode.url ?? '',
     thumbnail: row.thumbnail_url ?? metadataNode.thumbnail ?? '',
     tiles_url: row.tiles_base_url ?? metadataNode.tiles_url ?? '',
-    tile_url_pattern: metadataNode.tile_url_pattern ?? r2.tilePattern(metadataNode.scene_folder ?? `scene_${String(fallbackIndex + 1).padStart(2, '0')}`, (metadataNode.tile_format ?? 'flat_row_col') as TourNode['tile_format']),
+    tile_url_pattern: (() => {
+      if (row.tiles_base_url) {
+        const fmt = (metadataNode.tile_format ?? 'flat_row_col') as TourNode['tile_format'];
+        return fmt === 'marzipano_standard'
+          ? `${row.tiles_base_url}/{z}/{x}/{y}.jpg`
+          : `${row.tiles_base_url}/tile_{y}_{x}.jpg`;
+      }
+      return metadataNode.tile_url_pattern
+        ?? r2.tilePattern(
+          metadataNode.scene_folder ?? `scene_${String(fallbackIndex + 1).padStart(2, '0')}`,
+          (metadataNode.tile_format ?? 'flat_row_col') as TourNode['tile_format']
+        );
+    })(),
     tile_format: (metadataNode.tile_format ?? tileInfo.format ?? 'flat_row_col') as TourNode['tile_format'],
     tile_info: {
       format: (tileInfo.format ?? metadataNode.tile_format ?? 'flat_row_col') as TourNode['tile_format'],
@@ -81,8 +93,31 @@ function nodeFromRow(row: TourNodeRow, fallbackIndex: number): TourNode {
   };
 }
 
-function buildManifest(tour: TourRow, rows: TourNodeRow[]): TourManifest {
-  const nodes = rows.map((row, index) => nodeFromRow(row, index));
+function buildManifest(
+  tour: TourRow,
+  rows: TourNodeRow[],
+  hotspotsByFromNode: Map<string, HotspotRow[]>
+): TourManifest {
+  const nodes = rows.map((row, index) => {
+    const node = nodeFromRow(row, index);
+    const dbHotspots = hotspotsByFromNode.get(row.id) ?? [];
+    if (dbHotspots.length > 0) {
+      node.hotspots = dbHotspots.map((hs) => ({
+        target_id: hs.to_node_data?.node_key ?? hs.to_node,
+        target_name: hs.to_node_data?.name ?? 'Unknown',
+        yaw: Number(hs.yaw),
+        pitch: Number(hs.pitch),
+        distance_m: Number(hs.distance_m),
+        label: hs.label,
+      }));
+    }
+    return node;
+  });
+
+  const firstNodeWithGps = nodes.find((node) => node.gps?.lat && node.gps?.lng);
+  const centerLat = Number(tour.center_lat) || firstNodeWithGps?.gps.lat || 14.346;
+  const centerLng = Number(tour.center_lng) || firstNodeWithGps?.gps.lng || 108.007;
+
   return {
     tour_name: tour.name,
     generated_at: new Date().toISOString(),
@@ -93,12 +128,12 @@ function buildManifest(tour: TourRow, rows: TourNodeRow[]): TourManifest {
     tile_format: nodes[0]?.tile_format ?? 'flat_row_col',
     mapbox: {
       center: {
-        lat: Number(tour.center_lat),
-        lng: Number(tour.center_lng),
+        lat: centerLat,
+        lng: centerLng,
       },
       zoom: Number(tour.zoom_level) || 14,
       pitch: 45,
-      style: tour.mapbox_style,
+      style: tour.mapbox_style || 'mapbox://styles/mapbox/satellite-streets-v12',
     },
     nodes,
   };
@@ -181,8 +216,19 @@ export function VirtualTourViewer({ tourSlug }: VirtualTourViewerProps) {
 
       try {
         const tour = await getTourBySlug(tourSlug);
-        const nodes = await getTourNodes(tour.id);
-        const manifest = buildManifest(tour, nodes);
+        const [nodes, hotspots] = await Promise.all([
+          getTourNodes(tour.id),
+          getHotspotsForTour(tour.id),
+        ]);
+
+        const hotspotsByFromNode = new Map<string, HotspotRow[]>();
+        for (const hs of hotspots) {
+          const key = hs.from_node;
+          if (!hotspotsByFromNode.has(key)) hotspotsByFromNode.set(key, []);
+          hotspotsByFromNode.get(key)!.push(hs);
+        }
+
+        const manifest = buildManifest(tour, nodes, hotspotsByFromNode);
         if (!active) {
           return;
         }

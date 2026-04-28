@@ -116,6 +116,10 @@ export interface HotspotRow {
   distance_m: number;
   icon_type: string;
   is_visible: boolean;
+  from_node_data?: {
+    id: string;
+    node_key: string;
+  } | null;
   to_node_data?: {
     id: string;
     node_key: string;
